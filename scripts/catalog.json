@@ -1,0 +1,353 @@
+[
+  {
+    "id": "chopin-1",
+    "composer": "Chopin",
+    "prefix": "FC_11",
+    "title": "Piano Concerto No.1 in E minor",
+    "catalog": "Op.11",
+    "movements": {
+      "1": "I. Allegro maestoso",
+      "2": "II. Romance. Larghetto",
+      "3": "III. Rondo. Vivace"
+    }
+  },
+  {
+    "id": "chopin-2",
+    "composer": "Chopin",
+    "prefix": "FC_21",
+    "title": "Piano Concerto No.2 in F minor",
+    "catalog": "Op.21",
+    "movements": {
+      "1": "I. Maestoso",
+      "2": "II. Larghetto",
+      "3": "III. Allegro vivace"
+    }
+  },
+  {
+    "id": "beethoven-1",
+    "composer": "Beethoven",
+    "prefix": "LB_15",
+    "title": "Piano Concerto No.1 in C major",
+    "catalog": "Op.15",
+    "movements": {
+      "1": "I. Allegro con brio",
+      "2": "II. Largo",
+      "3": "III. Rondo. Allegro scherzando"
+    }
+  },
+  {
+    "id": "beethoven-2",
+    "composer": "Beethoven",
+    "prefix": "LB_19",
+    "title": "Piano Concerto No.2 in B-flat major",
+    "catalog": "Op.19",
+    "movements": {
+      "1": "I. Allegro con brio",
+      "2": "II. Adagio",
+      "3": "III. Rondo. Molto allegro"
+    }
+  },
+  {
+    "id": "beethoven-4",
+    "composer": "Beethoven",
+    "prefix": "LB_58",
+    "title": "Piano Concerto No.4 in G major",
+    "catalog": "Op.58",
+    "movements": {
+      "1": "I. Allegro moderato",
+      "2": "II. Andante con moto",
+      "3": "III. Rondo. Vivace"
+    }
+  },
+  {
+    "id": "beethoven-5",
+    "composer": "Beethoven",
+    "prefix": "LB_73",
+    "title": "Piano Concerto No.5 in E-flat major 'Emperor'",
+    "catalog": "Op.73",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Adagio un poco mosso",
+      "3": "III. Rondo. Allegro"
+    }
+  },
+  {
+    "id": "grieg",
+    "composer": "Grieg",
+    "prefix": "EG_16",
+    "title": "Piano Concerto in A minor",
+    "catalog": "Op.16",
+    "movements": {
+      "1": "I. Allegro molto moderato",
+      "2": "II. Adagio",
+      "3": "III. Allegro moderato molto e marcato"
+    }
+  },
+  {
+    "id": "mendelssohn-1",
+    "composer": "Mendelssohn",
+    "prefix": "FM_25",
+    "title": "Piano Concerto No.1 in G minor",
+    "catalog": "Op.25",
+    "movements": {
+      "1": "I. Molto allegro con fuoco",
+      "2": "II. Andante",
+      "3": "III. Presto — Molto allegro e vivace"
+    }
+  },
+  {
+    "id": "tchaikovsky-1",
+    "composer": "Tchaikovsky",
+    "prefix": "PT_23",
+    "title": "Piano Concerto No.1 in B-flat minor",
+    "catalog": "Op.23",
+    "movements": {
+      "1": "I. Allegro non troppo e molto maestoso",
+      "2": "II. Andantino semplice",
+      "3": "III. Allegro con fuoco"
+    }
+  },
+  {
+    "id": "rachmaninoff-1",
+    "composer": "Rachmaninoff",
+    "prefix": "SR_1",
+    "title": "Piano Concerto No.1 in F-sharp minor",
+    "catalog": "Op.1",
+    "movements": {
+      "1": "I. Vivace",
+      "2": "II. Andante",
+      "3": "III. Allegro vivace"
+    }
+  },
+  {
+    "id": "rachmaninoff-2",
+    "composer": "Rachmaninoff",
+    "prefix": "SR_18",
+    "title": "Piano Concerto No.2 in C minor",
+    "catalog": "Op.18",
+    "movements": {
+      "1": "I. Moderato",
+      "2": "II. Adagio sostenuto",
+      "3": "III. Allegro scherzando"
+    }
+  },
+  {
+    "id": "prokofiev-2",
+    "composer": "Prokofiev",
+    "prefix": "SP_16",
+    "title": "Piano Concerto No.2 in G minor",
+    "catalog": "Op.16",
+    "movements": {
+      "1": "I. Andantino",
+      "2": "II. Scherzo. Vivace",
+      "3": "III. Intermezzo. Allegro moderato",
+      "4": "IV. Finale. Allegro tempestoso"
+    }
+  },
+  {
+    "id": "prokofiev-3",
+    "composer": "Prokofiev",
+    "prefix": "SP_26",
+    "title": "Piano Concerto No.3 in C major",
+    "catalog": "Op.26",
+    "movements": {
+      "1": "I. Andante — Allegro",
+      "2": "II. Tema con variazioni",
+      "3": "III. Allegro ma non troppo"
+    }
+  },
+  {
+    "id": "brahms-2",
+    "composer": "Brahms",
+    "prefix": "JB_83",
+    "title": "Piano Concerto No.2 in B-flat major",
+    "catalog": "Op.83",
+    "movements": {
+      "1": "I. Allegro non troppo",
+      "2": "II. Allegro appassionato",
+      "3": "III. Andante",
+      "4": "IV. Allegretto grazioso"
+    }
+  },
+  {
+    "id": "ravel",
+    "composer": "Ravel",
+    "prefix": "MR_83",
+    "title": "Piano Concerto in G major",
+    "catalog": "M.83",
+    "movements": {
+      "1": "I. Allegramente",
+      "2": "II. Adagio assai",
+      "3": "III. Presto"
+    }
+  },
+  {
+    "id": "schumann",
+    "composer": "Schumann",
+    "prefix": "RS_54",
+    "title": "Piano Concerto in A minor",
+    "catalog": "Op.54",
+    "movements": {
+      "1": "I. Allegro affettuoso",
+      "2": "II. Intermezzo. Andantino grazioso",
+      "3": "III. Allegro vivace"
+    }
+  },
+  {
+    "id": "mozart-466",
+    "composer": "Mozart",
+    "prefix": "WAM_466",
+    "title": "Piano Concerto No.20 in D minor",
+    "catalog": "K.466",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Romanze",
+      "3": "III. Rondo. Allegro assai"
+    }
+  },
+  {
+    "id": "mozart-467",
+    "composer": "Mozart",
+    "prefix": "WAM_467",
+    "title": "Piano Concerto No.21 in C major",
+    "catalog": "K.467",
+    "movements": {
+      "1": "I. Allegro maestoso",
+      "2": "II. Andante",
+      "3": "III. Allegro vivace assai"
+    }
+  },
+  {
+    "id": "mozart-482",
+    "composer": "Mozart",
+    "prefix": "WAM_482",
+    "title": "Piano Concerto No.22 in E-flat major",
+    "catalog": "K.482",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Allegro"
+    }
+  },
+  {
+    "id": "mozart-491",
+    "composer": "Mozart",
+    "prefix": "WAM_491",
+    "title": "Piano Concerto No.24 in C minor",
+    "catalog": "K.491",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Larghetto",
+      "3": "III. Allegro"
+    }
+  },
+  {
+    "id": "mozart-175",
+    "composer": "Mozart",
+    "prefix": "WAM_175",
+    "title": "Piano Concerto No.5 in D major",
+    "catalog": "K.175",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante ma un poco adagio",
+      "3": "III. Allegro"
+    }
+  },
+  {
+    "id": "mozart-37",
+    "composer": "Mozart",
+    "prefix": "WAM_37",
+    "title": "Piano Concerto No.1 in F major",
+    "catalog": "K.37",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Allegro"
+    }
+  },
+  {
+    "id": "mozart-39",
+    "composer": "Mozart",
+    "prefix": "WAM_39",
+    "title": "Piano Concerto No.2 in B-flat major",
+    "catalog": "K.39",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Molto allegro"
+    }
+  },
+  {
+    "id": "mozart-40",
+    "composer": "Mozart",
+    "prefix": "WAM_40",
+    "title": "Piano Concerto No.3 in D major",
+    "catalog": "K.40",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Presto"
+    }
+  },
+  {
+    "id": "mozart-41",
+    "composer": "Mozart",
+    "prefix": "WAM_41",
+    "title": "Piano Concerto No.4 in G major",
+    "catalog": "K.41",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Molto allegro"
+    }
+  },
+  {
+    "id": "mozart-413",
+    "composer": "Mozart",
+    "prefix": "WAM_413",
+    "title": "Piano Concerto No.11 in F major",
+    "catalog": "K.413",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Larghetto",
+      "3": "III. Tempo di menuetto"
+    }
+  },
+  {
+    "id": "mozart-450",
+    "composer": "Mozart",
+    "prefix": "WAM_450",
+    "title": "Piano Concerto No.15 in B-flat major",
+    "catalog": "K.450",
+    "movements": {
+      "1": "I. Allegro",
+      "2": "II. Andante",
+      "3": "III. Allegro"
+    }
+  },
+  {
+    "id": "mozart-456",
+    "composer": "Mozart",
+    "prefix": "WAM_456",
+    "title": "Piano Concerto No.18 in B-flat major",
+    "catalog": "K.456",
+    "movements": {
+      "1": "I. Allegro vivace",
+      "2": "II. Andante un poco sostenuto",
+      "3": "III. Allegro vivace"
+    }
+  },
+  {
+    "id": "liszt-1",
+    "composer": "Liszt",
+    "prefix": "FL_124",
+    "title": "Piano Concerto No.1 in E-flat major",
+    "catalog": "S.124",
+    "movements": {
+      "1": "I. Allegro maestoso",
+      "2": "II. Quasi adagio",
+      "3": "III. Allegretto vivace",
+      "4": "IV. Allegro marziale animato"
+    }
+  }
+]

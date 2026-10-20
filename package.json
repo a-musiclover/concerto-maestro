@@ -1,0 +1,39 @@
+{
+  "name": "concerto-maestro",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "dependencies": {
+    "abcjs": "^6.7.2",
+    "spessasynth_lib": "^4.3.14"
+  },
+  "description": "Orchestra-only rehearsal accompaniment for piano concertos, with a tempo map you control",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build-bank.mjs && esbuild src/main.js --bundle --format=iife --target=es2022 --define:__STANDALONE__=false --outfile=public/app.js --loader:.css=css",
+    "watch": "esbuild src/main.js --bundle --format=iife --target=es2022 --define:__STANDALONE__=false --outfile=public/app.js --loader:.css=css --watch",
+    "build:pieces": "node scripts/build.mjs",
+    "build:bank": "node scripts/build-bank.mjs",
+    "standalone": "node scripts/build-standalone.mjs",
+    "dist": "node scripts/build-standalone.mjs --zip"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "spessasynth_core": "4.3.22"
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "piano",
+    "concerto",
+    "rehearsal",
+    "abc-notation",
+    "soundfont",
+    "webaudio",
+    "practice"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-handle>/concerto-maestro.git"
+  },
+  "homepage": "https://github.com/<your-handle>/concerto-maestro"
+}

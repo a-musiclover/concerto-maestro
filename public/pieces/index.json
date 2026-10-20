@@ -1,0 +1,6899 @@
+{
+ "generatedAt": "2026-10-18T23:55:37.166Z",
+ "pieces": [
+  {
+   "id": "chopin-1-m1",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.1 in E minor",
+   "catalog": "Op.11",
+   "movement": "I. Allegro maestoso",
+   "movementNo": 1,
+   "key": "G",
+   "meter": "3/4",
+   "baseBpm": 126,
+   "totalMeasures": 690,
+   "trackCount": 13,
+   "noteCount": 9224,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "C Clarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I.II.\\nHorns in E",
+      "III.IV.\\nHorn in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "C Trumpets"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "I.Violins"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "II.Violins"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Cellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chopin-1-m2",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.1 in E minor",
+   "catalog": "Op.11",
+   "movement": "II. Romance. Larghetto",
+   "movementNo": 2,
+   "key": "E",
+   "meter": "4/4",
+   "baseBpm": 80,
+   "totalMeasures": 126,
+   "trackCount": 9,
+   "noteCount": 1445,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I.II.\\nCorni in E"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "I.Violino"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "II.Violino"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chopin-1-m3",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.1 in E minor",
+   "catalog": "Op.11",
+   "movement": "III. Rondo. Vivace",
+   "movementNo": 3,
+   "key": "E",
+   "meter": "2/4",
+   "baseBpm": 104,
+   "totalMeasures": 521,
+   "trackCount": 13,
+   "noteCount": 7844,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I.II.\\nCorni in E"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in C"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "I.Violino"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "II.Violino"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chopin-2-m1",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.2 in F minor",
+   "catalog": "Op.21",
+   "movement": "I. Maestoso",
+   "movementNo": 1,
+   "key": "Ab",
+   "meter": "4/4",
+   "baseBpm": 120,
+   "totalMeasures": 349,
+   "trackCount": 13,
+   "noteCount": 7362,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in B"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in B"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone Basso"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chopin-2-m2",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.2 in F minor",
+   "catalog": "Op.21",
+   "movement": "II. Larghetto",
+   "movementNo": 2,
+   "key": "Ab",
+   "meter": "4/4",
+   "baseBpm": 50,
+   "totalMeasures": 97,
+   "trackCount": 10,
+   "noteCount": 1079,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in B"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in Es"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chopin-2-m3",
+   "composer": "Chopin",
+   "work": "Piano Concerto No.2 in F minor",
+   "catalog": "Op.21",
+   "movement": "III. Allegro vivace",
+   "movementNo": 3,
+   "key": "Ab",
+   "meter": "3/4",
+   "baseBpm": 215,
+   "totalMeasures": 515,
+   "trackCount": 13,
+   "noteCount": 4940,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in B"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in B"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone Basso"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in F.C."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-1-m1",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.1 in C major",
+   "catalog": "Op.15",
+   "movement": "I. Allegro con brio",
+   "movementNo": 1,
+   "key": "C",
+   "meter": "4/4",
+   "baseBpm": 144,
+   "totalMeasures": 479,
+   "trackCount": 11,
+   "noteCount": 9378,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauto"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in C.G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Violoncello e Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-1-m2",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.1 in C major",
+   "catalog": "Op.15",
+   "movement": "II. Largo",
+   "movementNo": 2,
+   "key": "Ab",
+   "meter": "4/4",
+   "baseBpm": 56,
+   "totalMeasures": 119,
+   "trackCount": 8,
+   "noteCount": 3341,
+   "tracks": [
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-1-m3",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.1 in C major",
+   "catalog": "Op.15",
+   "movement": "III. Rondo. Allegro scherzando",
+   "movementNo": 3,
+   "key": "C",
+   "meter": "2/4",
+   "baseBpm": 144,
+   "totalMeasures": 573,
+   "trackCount": 12,
+   "noteCount": 10592,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in C-G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-2-m1",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.19",
+   "movement": "I. Allegro con brio",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 152,
+   "totalMeasures": 400,
+   "trackCount": 9,
+   "noteCount": 8239,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Bb\\n"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-2-m2",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.19",
+   "movement": "II. Adagio",
+   "movementNo": 2,
+   "key": "Eb",
+   "meter": "3/4",
+   "baseBpm": 42,
+   "totalMeasures": 91,
+   "trackCount": 9,
+   "noteCount": 2777,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-2-m3",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.19",
+   "movement": "III. Rondo. Molto allegro",
+   "movementNo": 3,
+   "key": "Bb",
+   "meter": "6/8",
+   "baseBpm": 168,
+   "totalMeasures": 327,
+   "trackCount": 9,
+   "noteCount": 5575,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Bb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-4-m1",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "Op.58",
+   "movement": "I. Allegro moderato",
+   "movementNo": 1,
+   "key": "G",
+   "meter": "4/4",
+   "baseBpm": 110,
+   "totalMeasures": 422,
+   "trackCount": 10,
+   "noteCount": 9511,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauto"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Bassi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-4-m2",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "Op.58",
+   "movement": "II. Andante con moto",
+   "movementNo": 2,
+   "key": "G",
+   "meter": "2/4",
+   "baseBpm": 42,
+   "totalMeasures": 72,
+   "trackCount": 5,
+   "noteCount": 586,
+   "tracks": [
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-4-m3",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "Op.58",
+   "movement": "III. Rondo. Vivace",
+   "movementNo": 3,
+   "key": "G",
+   "meter": "2/4",
+   "baseBpm": 136,
+   "totalMeasures": 637,
+   "trackCount": 12,
+   "noteCount": 8712,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in C"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in G"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in C-G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-5-m1",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.5 in E-flat major 'Emperor'",
+   "catalog": "Op.73",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "Eb",
+   "meter": "4/4",
+   "baseBpm": 120,
+   "totalMeasures": 584,
+   "trackCount": 12,
+   "noteCount": 18402,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in Eb"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani\\nin Eb - Bb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-5-m2",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.5 in E-flat major 'Emperor'",
+   "catalog": "Op.73",
+   "movement": "II. Adagio un poco mosso",
+   "movementNo": 2,
+   "key": "B",
+   "meter": "4/4",
+   "baseBpm": 48,
+   "totalMeasures": 83,
+   "trackCount": 9,
+   "noteCount": 1256,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes",
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets in A"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons",
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beethoven-5-m3",
+   "composer": "Beethoven",
+   "work": "Piano Concerto No.5 in E-flat major 'Emperor'",
+   "catalog": "Op.73",
+   "movement": "III. Rondo. Allegro",
+   "movementNo": 3,
+   "key": "Eb",
+   "meter": "6/8",
+   "baseBpm": 129,
+   "totalMeasures": 431,
+   "trackCount": 11,
+   "noteCount": 9568,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets in B"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons",
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb",
+      "Horns in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in Eb"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grieg-m1",
+   "composer": "Grieg",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.16",
+   "movement": "I. Allegro molto moderato",
+   "movementNo": 1,
+   "key": "C",
+   "meter": "4/4",
+   "baseBpm": 84,
+   "totalMeasures": 226,
+   "trackCount": 13,
+   "noteCount": 5917,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "A Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "1 &amp; 2\\n\\nE Horn\\n\\n3 &amp; 4",
+      "E Horn"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "C Trumpet"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "1 &amp; 2\\n\\nTrombone\\n\\n3",
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grieg-m2",
+   "composer": "Grieg",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.16",
+   "movement": "II. Adagio",
+   "movementNo": 2,
+   "key": "Db",
+   "meter": "3/8",
+   "baseBpm": 84,
+   "totalMeasures": 84,
+   "trackCount": 10,
+   "noteCount": 1260,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Bb Clarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Eb Horns"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Solo\\nVioloncello",
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grieg-m3",
+   "composer": "Grieg",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.16",
+   "movement": "III. Allegro moderato molto e marcato",
+   "movementNo": 3,
+   "key": "C",
+   "meter": "2/4",
+   "baseBpm": 108,
+   "totalMeasures": 442,
+   "trackCount": 13,
+   "noteCount": 7250,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "A Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I\\nE Horn\\nII",
+      "III\\nE Horn\\nIV"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in A"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "I\\nTrombones\\nII",
+      "Trombone\\nIII"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mendelssohn-1-m1",
+   "composer": "Mendelssohn",
+   "work": "Piano Concerto No.1 in G minor",
+   "catalog": "Op.25",
+   "movement": "I. Molto allegro con fuoco",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 170,
+   "totalMeasures": 270,
+   "trackCount": 11,
+   "noteCount": 4919,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in G. D."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mendelssohn-1-m2",
+   "composer": "Mendelssohn",
+   "work": "Piano Concerto No.1 in G minor",
+   "catalog": "Op.25",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "E",
+   "meter": "3/4",
+   "baseBpm": 40,
+   "totalMeasures": 91,
+   "trackCount": 8,
+   "noteCount": 1125,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos",
+      "Violoncello II"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mendelssohn-1-m3",
+   "composer": "Mendelssohn",
+   "work": "Piano Concerto No.1 in G minor",
+   "catalog": "Op.25",
+   "movement": "III. Presto — Molto allegro e vivace",
+   "movementNo": 3,
+   "key": "G",
+   "meter": "4/4",
+   "baseBpm": 180,
+   "totalMeasures": 283,
+   "trackCount": 11,
+   "noteCount": 5657,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in G. D."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tchaikovsky-1-m1",
+   "composer": "Tchaikovsky",
+   "work": "Piano Concerto No.1 in B-flat minor",
+   "catalog": "Op.23",
+   "movement": "I. Allegro non troppo e molto maestoso",
+   "movementNo": 1,
+   "key": "Db",
+   "meter": "3/4",
+   "baseBpm": 70,
+   "totalMeasures": 1140,
+   "trackCount": 13,
+   "noteCount": 22868,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "I.Flute",
+      "II.Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Bb Clarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I.&amp;II.\\nHorns in F",
+      "III.&amp;IV.\\nHorns in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "F Trumpets"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tenor\\nTrombones",
+      "Bass\\nTrombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "I.Violins"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "II.Violins"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Cellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contra-\\nbasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tchaikovsky-1-m2",
+   "composer": "Tchaikovsky",
+   "work": "Piano Concerto No.1 in B-flat minor",
+   "catalog": "Op.23",
+   "movement": "II. Andantino semplice",
+   "movementNo": 2,
+   "key": "Db",
+   "meter": "6/8",
+   "baseBpm": 60,
+   "totalMeasures": 170,
+   "trackCount": 13,
+   "noteCount": 1813,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Bb\\nClarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I\\nF Horns\\nII",
+      "III\\nF Horns\\nIV"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 F\\nTrumpets"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "2 Tenor\\nTrombones",
+      "Bass\\nTrombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "2 Solo\\nVioloncellos",
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tchaikovsky-1-m3",
+   "composer": "Tchaikovsky",
+   "work": "Piano Concerto No.1 in B-flat minor",
+   "catalog": "Op.23",
+   "movement": "III. Allegro con fuoco",
+   "movementNo": 3,
+   "key": "Db",
+   "meter": "3/4",
+   "baseBpm": 126,
+   "totalMeasures": 301,
+   "trackCount": 13,
+   "noteCount": 8590,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "I.Flauto",
+      "II.Flauto"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in B"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I.II.\\nCorni in F",
+      "III.IV.\\nCorni in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in F"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tromboni\\nTenore",
+      "Trombone\\nBasso"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "I.Violino"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "II.Violino"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-1-m1",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.1 in F-sharp minor",
+   "catalog": "Op.1",
+   "movement": "I. Vivace",
+   "movementNo": 1,
+   "key": "A",
+   "meter": "4/4",
+   "baseBpm": 130,
+   "totalMeasures": 298,
+   "trackCount": 13,
+   "noteCount": 7742,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti I. II."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi I. II."
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti I. II in A."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti I. II."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe I. II. in B."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tromboni ten. I. II.",
+      "Trombone Basso"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani F#. A. B."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-1-m2",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.1 in F-sharp minor",
+   "catalog": "Op.1",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "D",
+   "meter": "4/4",
+   "baseBpm": 60,
+   "totalMeasures": 74,
+   "trackCount": 13,
+   "noteCount": 1081,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti I. II."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi I. II."
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti I. II in A."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti I. II."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe I. II. in B."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tromboni ten. I. II."
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani F#. A. B."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-1-m3",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.1 in F-sharp minor",
+   "catalog": "Op.1",
+   "movement": "III. Allegro vivace",
+   "movementNo": 3,
+   "key": "A",
+   "meter": "9/8",
+   "baseBpm": 160,
+   "totalMeasures": 243,
+   "trackCount": 14,
+   "noteCount": 8189,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti I. II."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi I. II."
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti I. II in A."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti I. II."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe I. II. in A."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tromboni ten. I. II.",
+      "Trombone Basso"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani F#. A. B."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Triangolo.",
+      "Piatti"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-2-m1",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.2 in C minor",
+   "catalog": "Op.18",
+   "movement": "I. Moderato",
+   "movementNo": 1,
+   "key": "Eb",
+   "meter": "2/2",
+   "baseBpm": 80,
+   "totalMeasures": 374,
+   "trackCount": 13,
+   "noteCount": 6898,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinetti in B",
+      "Clarinetto in B II"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Corni in F I II",
+      "Corni in F III IV"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trombe in B"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Tromboni I II",
+      "Trombono III",
+      "Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in G.As.C"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violino I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violino II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello",
+      "Violoncello II"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Basso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-2-m2",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.2 in C minor",
+   "catalog": "Op.18",
+   "movement": "II. Adagio sostenuto",
+   "movementNo": 2,
+   "key": "E",
+   "meter": "4/4",
+   "baseBpm": 52,
+   "totalMeasures": 183,
+   "trackCount": 13,
+   "noteCount": 2858,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 A Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I\\nHorn in F\\nII",
+      "III\\nHorn in F\\nIV"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "A Trumpet"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Trombone",
+      "3 Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rachmaninoff-2-m3",
+   "composer": "Rachmaninoff",
+   "work": "Piano Concerto No.2 in C minor",
+   "catalog": "Op.18",
+   "movement": "III. Allegro scherzando",
+   "movementNo": 3,
+   "key": "C",
+   "meter": "2/2",
+   "baseBpm": 232,
+   "totalMeasures": 482,
+   "trackCount": 15,
+   "noteCount": 11128,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 A\\nClarinets",
+      "2 Bb\\nClarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "I\\nF Horns\\nII",
+      "III\\nF Horns\\nIV"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Bb\\nTrumpets"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "2 Tenor\\nTrombones",
+      "Bass\\nTrombone",
+      "Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Cymbal"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Bass\\nDrum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-2-m1",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.2 in G minor",
+   "catalog": "Op.16",
+   "movement": "I. Andantino",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 63,
+   "totalMeasures": 200,
+   "trackCount": 14,
+   "noteCount": 5588,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni",
+      "Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Piatti"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-2-m2",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.2 in G minor",
+   "catalog": "Op.16",
+   "movement": "II. Scherzo. Vivace",
+   "movementNo": 2,
+   "key": "F",
+   "meter": "2/4",
+   "baseBpm": 165,
+   "totalMeasures": 187,
+   "trackCount": 13,
+   "noteCount": 4774,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Tamburo",
+      "Piatti"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-2-m3",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.2 in G minor",
+   "catalog": "Op.16",
+   "movement": "III. Intermezzo. Allegro moderato",
+   "movementNo": 3,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 85,
+   "totalMeasures": 159,
+   "trackCount": 15,
+   "noteCount": 6346,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni",
+      "Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Tambourino"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Tamburo",
+      "Piatti",
+      "Gran Cassa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-2-m4",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.2 in G minor",
+   "catalog": "Op.16",
+   "movement": "IV. Finale. Allegro tempestoso",
+   "movementNo": 4,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 180,
+   "totalMeasures": 319,
+   "trackCount": 15,
+   "noteCount": 10334,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni",
+      "Tuba"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Tambourino"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Piatti",
+      "Gran Cassa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-3-m1",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.3 in C major",
+   "catalog": "Op.26",
+   "movement": "I. Andante — Allegro",
+   "movementNo": 1,
+   "key": "C",
+   "meter": "4/4",
+   "baseBpm": 72,
+   "totalMeasures": 277,
+   "trackCount": 15,
+   "noteCount": 12194,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Piccolo",
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Tamurino"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Castagnetti",
+      "Piatti",
+      "Gran cassa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-3-m2",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.3 in C major",
+   "catalog": "Op.26",
+   "movement": "II. Tema con variazioni",
+   "movementNo": 2,
+   "key": "G",
+   "meter": "4/4",
+   "baseBpm": 70,
+   "totalMeasures": 219,
+   "trackCount": 15,
+   "noteCount": 6466,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Tamurino"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Piatti",
+      "Gran cassa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokofiev-3-m3",
+   "composer": "Prokofiev",
+   "work": "Piano Concerto No.3 in C major",
+   "catalog": "Op.26",
+   "movement": "III. Allegro ma non troppo",
+   "movementNo": 3,
+   "key": "C",
+   "meter": "3/4",
+   "baseBpm": 160,
+   "totalMeasures": 419,
+   "trackCount": 14,
+   "noteCount": 10786,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Piccolo",
+      "2 Flauti"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Oboi"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "2 Clarinetti"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotti"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "4 Corni"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trombe"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "3 Tromboni"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violini I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violini II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viole"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelli"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabassi"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Piatti",
+      "Gran cassa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brahms-2-m1",
+   "composer": "Brahms",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.83",
+   "movement": "I. Allegro non troppo",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 102,
+   "totalMeasures": 376,
+   "trackCount": 12,
+   "noteCount": 9007,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      " Clarinet in B flat"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn 1 2 in B basso ",
+      "Horn 12 in E"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet 1 2 in B flat"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Double Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brahms-2-m2",
+   "composer": "Brahms",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.83",
+   "movement": "II. Allegro appassionato",
+   "movementNo": 2,
+   "key": "F",
+   "meter": "3/4",
+   "baseBpm": 228,
+   "totalMeasures": 465,
+   "trackCount": 12,
+   "noteCount": 6407,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet 1 2 in B flat"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn 1 2 in D",
+      "Horn 1 2 in B Basso"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet 1 2 in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Double Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brahms-2-m3",
+   "composer": "Brahms",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.83",
+   "movement": "III. Andante",
+   "movementNo": 3,
+   "key": "Bb",
+   "meter": "6/4",
+   "baseBpm": 84,
+   "totalMeasures": 100,
+   "trackCount": 10,
+   "noteCount": 1784,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "BaccidentalFlat Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn 1 2 in B basso "
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello solo",
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Double Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brahms-2-m4",
+   "composer": "Brahms",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "Op.83",
+   "movement": "IV. Allegretto grazioso",
+   "movementNo": 4,
+   "key": "Bb",
+   "meter": "2/4",
+   "baseBpm": 104,
+   "totalMeasures": 490,
+   "trackCount": 10,
+   "noteCount": 7016,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "BaccidentalFlat Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn 1 2 in B basso ",
+      "Horn 1 2 in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Double Basses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ravel-m1",
+   "composer": "Ravel",
+   "work": "Piano Concerto in G major",
+   "catalog": "M.83",
+   "movement": "I. Allegramente",
+   "movementNo": 1,
+   "key": "G",
+   "meter": "2/2",
+   "baseBpm": 232,
+   "totalMeasures": 325,
+   "trackCount": 15,
+   "noteCount": 6934,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Piccolo",
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe",
+      "English Horn"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Eb Clarinet",
+      "Bb Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horns in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "C Trumpet"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "8 1st Violins\\n \\n8 2nd Violins",
+      "Violin"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "6 Violas",
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "6 Violoncellos",
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "4 Contrabasses",
+      "Contrabass"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Cymbal",
+      "Harp"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Triangle",
+      "Snare Drum",
+      "Whip",
+      "Tam-Tam",
+      "Wood Block",
+      "Bass Drum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ravel-m2",
+   "composer": "Ravel",
+   "work": "Piano Concerto in G major",
+   "catalog": "M.83",
+   "movement": "II. Adagio assai",
+   "movementNo": 2,
+   "key": "E",
+   "meter": "3/4",
+   "baseBpm": 38,
+   "totalMeasures": 108,
+   "trackCount": 13,
+   "noteCount": 1105,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Piccolo",
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe",
+      "English Horn"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Eb Clarinet",
+      "A Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "C Trumpet"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Harp"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ravel-m3",
+   "composer": "Ravel",
+   "work": "Piano Concerto in G major",
+   "catalog": "M.83",
+   "movement": "III. Presto",
+   "movementNo": 3,
+   "key": "B",
+   "meter": "2/4",
+   "baseBpm": 187,
+   "totalMeasures": 306,
+   "trackCount": 15,
+   "noteCount": 5047,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Piccolo",
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe",
+      "English Horn"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Eb Clarinet",
+      "A Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horns in F"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "C Trumpet"
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "Trombone"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "Cymbal",
+      "Harp"
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Snare Drum",
+      "Tambourine",
+      "Triangle",
+      "Whip",
+      "Bass Drum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "schumann-m1",
+   "composer": "Schumann",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.54",
+   "movement": "I. Allegro affettuoso",
+   "movementNo": 1,
+   "key": "C",
+   "meter": "4/4",
+   "baseBpm": 144,
+   "totalMeasures": 544,
+   "trackCount": 12,
+   "noteCount": 7489,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets in A"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in A E"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Bass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "schumann-m2",
+   "composer": "Schumann",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.54",
+   "movement": "II. Intermezzo. Andantino grazioso",
+   "movementNo": 2,
+   "key": "F",
+   "meter": "2/4",
+   "baseBpm": 60,
+   "totalMeasures": 110,
+   "trackCount": 10,
+   "noteCount": 1207,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Bass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "schumann-m3",
+   "composer": "Schumann",
+   "work": "Piano Concerto in A minor",
+   "catalog": "Op.54",
+   "movement": "III. Allegro vivace",
+   "movementNo": 3,
+   "key": "A",
+   "meter": "3/4",
+   "baseBpm": 172,
+   "totalMeasures": 871,
+   "trackCount": 12,
+   "noteCount": 9493,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinets"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoons"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in A E"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Bass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-466-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.20 in D minor",
+   "catalog": "K.466",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "F",
+   "meter": "4/4",
+   "baseBpm": 132,
+   "totalMeasures": 397,
+   "trackCount": 11,
+   "noteCount": 9109,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in D-A"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-466-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.20 in D minor",
+   "catalog": "K.466",
+   "movement": "II. Romanze",
+   "movementNo": 2,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 88,
+   "totalMeasures": 162,
+   "trackCount": 9,
+   "noteCount": 3428,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-466-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.20 in D minor",
+   "catalog": "K.466",
+   "movement": "III. Rondo. Allegro assai",
+   "movementNo": 3,
+   "key": "F",
+   "meter": "2/2",
+   "baseBpm": 264,
+   "totalMeasures": 429,
+   "trackCount": 11,
+   "noteCount": 6050,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in D-A"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-467-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.21 in C major",
+   "catalog": "K.467",
+   "movement": "I. Allegro maestoso",
+   "movementNo": 1,
+   "key": "C",
+   "meter": "4/4",
+   "baseBpm": 126,
+   "totalMeasures": 417,
+   "trackCount": 11,
+   "noteCount": 9588,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-467-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.21 in C major",
+   "catalog": "K.467",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "F",
+   "meter": "2/2",
+   "baseBpm": 72,
+   "totalMeasures": 104,
+   "trackCount": 9,
+   "noteCount": 4250,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in C"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-467-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.21 in C major",
+   "catalog": "K.467",
+   "movement": "III. Allegro vivace assai",
+   "movementNo": 3,
+   "key": "C",
+   "meter": "2/4",
+   "baseBpm": 164,
+   "totalMeasures": 447,
+   "trackCount": 11,
+   "noteCount": 5220,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in C"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-482-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.22 in E-flat major",
+   "catalog": "K.482",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "Eb",
+   "meter": "4/4",
+   "baseBpm": 140,
+   "totalMeasures": 381,
+   "trackCount": 11,
+   "noteCount": 9471,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Bb Clarinet"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Eb Trumpet"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-491-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.24 in C minor",
+   "catalog": "K.491",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "Eb",
+   "meter": "3/4",
+   "baseBpm": 132,
+   "totalMeasures": 523,
+   "trackCount": 12,
+   "noteCount": 10021,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in C-G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-491-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.24 in C minor",
+   "catalog": "K.491",
+   "movement": "II. Larghetto",
+   "movementNo": 2,
+   "key": "Eb",
+   "meter": "2/2",
+   "baseBpm": 52,
+   "totalMeasures": 89,
+   "trackCount": 11,
+   "noteCount": 3096,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-491-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.24 in C minor",
+   "catalog": "K.491",
+   "movement": "III. Allegro",
+   "movementNo": 3,
+   "key": "Eb",
+   "meter": "2/2",
+   "baseBpm": 126,
+   "totalMeasures": 293,
+   "trackCount": 12,
+   "noteCount": 5198,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flute"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Clarinets",
+     "voices": [
+      "Clarinet in Bb"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Bassoon"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Eb"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in C"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in C-G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-175-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.5 in D major",
+   "catalog": "K.175",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "D",
+   "meter": "4/4",
+   "baseBpm": 138,
+   "totalMeasures": 266,
+   "trackCount": 8,
+   "noteCount": 5780,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in D. A."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-175-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.5 in D major",
+   "catalog": "K.175",
+   "movement": "II. Andante ma un poco adagio",
+   "movementNo": 2,
+   "key": "G",
+   "meter": "3/4",
+   "baseBpm": 55,
+   "totalMeasures": 136,
+   "trackCount": 6,
+   "noteCount": 2163,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-175-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.5 in D major",
+   "catalog": "K.175",
+   "movement": "III. Allegro",
+   "movementNo": 3,
+   "key": "D",
+   "meter": "2/2",
+   "baseBpm": 256,
+   "totalMeasures": 323,
+   "trackCount": 8,
+   "noteCount": 3144,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpet in D"
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Timpani in D. A."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-37-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.1 in F major",
+   "catalog": "K.37",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "F",
+   "meter": "4/4",
+   "baseBpm": 130,
+   "totalMeasures": 169,
+   "trackCount": 7,
+   "noteCount": 3218,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-37-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.1 in F major",
+   "catalog": "K.37",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "C",
+   "meter": "3/4",
+   "baseBpm": 45,
+   "totalMeasures": 75,
+   "trackCount": 6,
+   "noteCount": 1121,
+   "tracks": [
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-37-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.1 in F major",
+   "catalog": "K.37",
+   "movement": "III. Allegro",
+   "movementNo": 3,
+   "key": "F",
+   "meter": "3/4",
+   "baseBpm": 135,
+   "totalMeasures": 224,
+   "trackCount": 7,
+   "noteCount": 2711,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-39-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "K.39",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 120,
+   "totalMeasures": 174,
+   "trackCount": 7,
+   "noteCount": 3134,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Bb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-39-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "K.39",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "F",
+   "meter": "4/4",
+   "baseBpm": 65,
+   "totalMeasures": 92,
+   "trackCount": 7,
+   "noteCount": 1917,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Bb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-39-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.2 in B-flat major",
+   "catalog": "K.39",
+   "movement": "III. Molto allegro",
+   "movementNo": 3,
+   "key": "Bb",
+   "meter": "2/4",
+   "baseBpm": 75,
+   "totalMeasures": 141,
+   "trackCount": 7,
+   "noteCount": 2041,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in Bb"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-40-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.3 in D major",
+   "catalog": "K.40",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "D",
+   "meter": "4/4",
+   "baseBpm": 130,
+   "totalMeasures": 162,
+   "trackCount": 8,
+   "noteCount": 3268,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-40-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.3 in D major",
+   "catalog": "K.40",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "A",
+   "meter": "2/4",
+   "baseBpm": 30,
+   "totalMeasures": 73,
+   "trackCount": 7,
+   "noteCount": 1268,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-40-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.3 in D major",
+   "catalog": "K.40",
+   "movement": "III. Presto",
+   "movementNo": 3,
+   "key": "D",
+   "meter": "3/8",
+   "baseBpm": 142,
+   "totalMeasures": 225,
+   "trackCount": 8,
+   "noteCount": 2437,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in D"
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "Trumpets in D"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-41-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "K.41",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "G",
+   "meter": "3/4",
+   "baseBpm": 130,
+   "totalMeasures": 226,
+   "trackCount": 7,
+   "noteCount": 3078,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-41-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "K.41",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "Bb",
+   "meter": "2/4",
+   "baseBpm": 35,
+   "totalMeasures": 82,
+   "trackCount": 7,
+   "noteCount": 1265,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-41-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.4 in G major",
+   "catalog": "K.41",
+   "movement": "III. Molto allegro",
+   "movementNo": 3,
+   "key": "G",
+   "meter": "3/4",
+   "baseBpm": 140,
+   "totalMeasures": 172,
+   "trackCount": 7,
+   "noteCount": 2904,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flutes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horn in G"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violins 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violins 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Violas"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncellos"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Contrabasses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-413-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.11 in F major",
+   "catalog": "K.413",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "F",
+   "meter": "3/4",
+   "baseBpm": 144,
+   "totalMeasures": 378,
+   "trackCount": 6,
+   "noteCount": 3444,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Trompa\\nen Fa"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello y\\nContrabajo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-413-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.11 in F major",
+   "catalog": "K.413",
+   "movement": "II. Larghetto",
+   "movementNo": 2,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 63,
+   "totalMeasures": 68,
+   "trackCount": 7,
+   "noteCount": 1510,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagot"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Trompa\\nen Sib"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello y\\nContrabajo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-413-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.11 in F major",
+   "catalog": "K.413",
+   "movement": "III. Tempo di menuetto",
+   "movementNo": 3,
+   "key": "F",
+   "meter": "3/4",
+   "baseBpm": 120,
+   "totalMeasures": 231,
+   "trackCount": 6,
+   "noteCount": 1733,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Trompa\\nen Fa"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello y\\nContrabajo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-450-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.15 in B-flat major",
+   "catalog": "K.450",
+   "movement": "I. Allegro",
+   "movementNo": 1,
+   "key": "F",
+   "meter": "4/4",
+   "baseBpm": 144,
+   "totalMeasures": 169,
+   "trackCount": 6,
+   "noteCount": 2765,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Cello &amp; \\nBass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-450-m2",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.15 in B-flat major",
+   "catalog": "K.450",
+   "movement": "II. Andante",
+   "movementNo": 2,
+   "key": "C",
+   "meter": "3/4",
+   "baseBpm": 92,
+   "totalMeasures": 66,
+   "trackCount": 5,
+   "noteCount": 918,
+   "tracks": [
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Cello &amp; \\nBass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-450-m3",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.15 in B-flat major",
+   "catalog": "K.450",
+   "movement": "III. Allegro",
+   "movementNo": 3,
+   "key": "F",
+   "meter": "3/4",
+   "baseBpm": 100,
+   "totalMeasures": 189,
+   "trackCount": 6,
+   "noteCount": 2283,
+   "tracks": [
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboes"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Horns in F"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin I"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin II"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Cello &amp;\\n Bass"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mozart-456-m1",
+   "composer": "Mozart",
+   "work": "Piano Concerto No.18 in B-flat major",
+   "catalog": "K.456",
+   "movement": "I. Allegro vivace",
+   "movementNo": 1,
+   "key": "Bb",
+   "meter": "4/4",
+   "baseBpm": 144,
+   "totalMeasures": 203,
+   "trackCount": 8,
+   "noteCount": 4203,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Flauto"
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "Oboe"
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "Fagott"
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "Trompa \\nen Sib"
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "Violin 1"
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "Violin 2"
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Viola"
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncello y \\nContrabajo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "liszt-1-m1",
+   "composer": "Liszt",
+   "work": "Piano Concerto No.1 in E-flat major",
+   "catalog": "S.124",
+   "movement": "I. Allegro maestoso",
+   "movementNo": 1,
+   "key": "Eb",
+   "meter": "4/4",
+   "baseBpm": 120,
+   "totalMeasures": 108,
+   "trackCount": 13,
+   "noteCount": 2178,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Kleine Flote.",
+      "2 Grosse Floten."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Hoboen."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotte."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horner in Es."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trompeten in Es."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "2 Tenorposaunen.",
+      "Bassposaune."
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Pauken in B. F."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "1. Violinen."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "2. Violinen."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Bratschen."
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelle."
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Kontrabasse."
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "2 Klarinetten in B."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "liszt-1-m2",
+   "composer": "Liszt",
+   "work": "Piano Concerto No.1 in E-flat major",
+   "catalog": "S.124",
+   "movement": "II. Quasi adagio",
+   "movementNo": 2,
+   "key": "B",
+   "meter": "12/8",
+   "baseBpm": 80,
+   "totalMeasures": 76,
+   "trackCount": 10,
+   "noteCount": 622,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "2 Grosse Floten."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Hoboen."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotte."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horner in Es."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "1. Violinen."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "2. Violinen."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Bratschen."
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelle."
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Kontrabasse."
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "2 Klarinetten in B."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "liszt-1-m3",
+   "composer": "Liszt",
+   "work": "Piano Concerto No.1 in E-flat major",
+   "catalog": "S.124",
+   "movement": "III. Allegretto vivace",
+   "movementNo": 3,
+   "key": "Eb",
+   "meter": "3/4",
+   "baseBpm": 120,
+   "totalMeasures": 175,
+   "trackCount": 14,
+   "noteCount": 2781,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Kleine Flote.",
+      "2 Grosse Floten."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Hoboen."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotte."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horner in Es."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trompeten in Es."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "2 Tenorposaunen.",
+      "Bassposaune."
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Pauken in B. F."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "1. Violinen."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "2. Violinen."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Bratschen."
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelle."
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Kontrabasse."
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "2 Klarinetten in B."
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Triangel."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "liszt-1-m4",
+   "composer": "Liszt",
+   "work": "Piano Concerto No.1 in E-flat major",
+   "catalog": "S.124",
+   "movement": "IV. Allegro marziale animato",
+   "movementNo": 4,
+   "key": "Eb",
+   "meter": "4/4",
+   "baseBpm": 140,
+   "totalMeasures": 162,
+   "trackCount": 14,
+   "noteCount": 4458,
+   "tracks": [
+    {
+     "label": "Flutes",
+     "voices": [
+      "Kleine Flote.",
+      "2 Grosse Floten."
+     ]
+    },
+    {
+     "label": "Oboes",
+     "voices": [
+      "2 Hoboen."
+     ]
+    },
+    {
+     "label": "Bassoons",
+     "voices": [
+      "2 Fagotte."
+     ]
+    },
+    {
+     "label": "Horns",
+     "voices": [
+      "2 Horner in Es."
+     ]
+    },
+    {
+     "label": "Trumpets",
+     "voices": [
+      "2 Trompeten in Es."
+     ]
+    },
+    {
+     "label": "Low Brass",
+     "voices": [
+      "2 Tenorposaunen.",
+      "Bassposaune."
+     ]
+    },
+    {
+     "label": "Timpani",
+     "voices": [
+      "Pauken in B. F."
+     ]
+    },
+    {
+     "label": "Violins I",
+     "voices": [
+      "1. Violinen."
+     ]
+    },
+    {
+     "label": "Violins II",
+     "voices": [
+      "2. Violinen."
+     ]
+    },
+    {
+     "label": "Violas",
+     "voices": [
+      "Bratschen."
+     ]
+    },
+    {
+     "label": "Cellos",
+     "voices": [
+      "Violoncelle."
+     ]
+    },
+    {
+     "label": "Basses",
+     "voices": [
+      "Kontrabasse."
+     ]
+    },
+    {
+     "label": "Other",
+     "voices": [
+      "2 Klarinetten in B."
+     ]
+    },
+    {
+     "label": "Percussion",
+     "voices": [
+      "Becken.",
+      "Triangel."
+     ]
+    }
+   ]
+  }
+ ]
+}
