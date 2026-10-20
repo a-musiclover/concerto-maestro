@@ -1,5 +1,9 @@
 # Concerto Maestro
 
+<p align="right">
+  <kbd>简体中文</kbd> · <a href="README.en.md"><kbd>English</kbd></a>
+</p>
+
 > 给钢琴系学生私下练协奏曲用的网页：**放的是去掉钢琴的乐团**。速度、段落、循环都由你定，练一百遍也不用跟任何人客气。
 
 ![Concerto Maestro](docs/screenshot.png)
@@ -14,7 +18,6 @@
 >
 > 借用傅聪老爷子的话说：**"我只是为音乐传福音的人罢了。"**
 
-*[English →](README.en.md)*
 
 ---
 
@@ -173,3 +176,11 @@ scripts/
   serve.mjs           零依赖静态服务器
   catalog.json        曲目清单（唯一需要人工的地方）
 ```
+
+---
+
+## Last but not least
+
+感谢 **DSH**（DeepSeek Harness）帮我辛勤地改代码——从 ABC 解析里那些丢声部的坑，到调度器、音源裁剪和这三个音色开关，基本都是它一行一行陪我磨出来的。
+
+也欢迎大家使用中国的开源模型 **DeepSeek**（笑）。

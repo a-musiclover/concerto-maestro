@@ -1,10 +1,13 @@
 # Concerto Maestro
 
+<p align="right">
+  <a href="README.md"><kbd>简体中文</kbd></a> · <kbd>English</kbd>
+</p>
+
 > A web page for piano students to rehearse concertos in private. **What plays is the orchestra with the piano taken out.** Tempo, sections and loops are yours. Practise it a hundred times; nobody is inconvenienced.
 
 ![Concerto Maestro](docs/screenshot-en.png)
 
-*[中文版 →](README.md)*
 
 ---
 
@@ -173,3 +176,11 @@ scripts/
   serve.mjs            zero-dependency static server
   catalog.json         the repertoire list — the only hand-maintained file
 ```
+
+---
+
+## Last but not least
+
+Thanks to **DSH** (DeepSeek Harness) for the tireless coding — from the voice-dropping traps in the ABC parser, through the scheduler and the soundbank pruning, to the three sound-treatment switches. It was there for every line.
+
+And do give China's open-source **DeepSeek** models a try (laughs).
