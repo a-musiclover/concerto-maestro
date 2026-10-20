@@ -10,6 +10,7 @@
       "engine.soundbank": "\u8F7D\u5165\u97F3\u8272\u5E93\u2026",
       "engine.ready": "\u97F3\u6E90\u5C31\u7EEA",
       "engine.error": "\u97F3\u6E90\u52A0\u8F7D\u5931\u8D25 \xB7 \u70B9\u6B64\u91CD\u8BD5",
+      "engine.safari": "Safari \u4E0D\u652F\u6301\u672C\u5730\u97F3\u9891 \xB7 \u8BF7\u7528 Chrome / Edge \u6253\u5F00\u8FD9\u4E2A\u6587\u4EF6",
       "engine.blocked": "\u6D4F\u89C8\u5668\u62E6\u4F4F\u4E86\u64AD\u653E\uFF0C\u70B9\u4E00\u4E0B\u9875\u9762\u4EFB\u610F\u5904\u518D\u6309\u64AD\u653E",
       "side.catalog": "\u66F2\u76EE",
       "side.hint": "\u7A7A\u683C \u64AD\u653E / \u6682\u505C \xB7 \u2190\u2192 \u8DF3\u5C0F\u8282 \xB7 L \u5FAA\u73AF",
@@ -58,6 +59,7 @@
       "engine.soundbank": "Loading soundbank\u2026",
       "engine.ready": "Ready",
       "engine.error": "Soundbank failed \xB7 click to retry",
+      "engine.safari": "Safari blocks local audio \u2014 open this file with Chrome or Edge",
       "engine.blocked": "Browser blocked playback \u2014 click anywhere, then press play",
       "side.catalog": "Repertoire",
       "side.hint": "Space play/pause \xB7 \u2190\u2192 bar \xB7 L loop",
@@ -7222,7 +7224,9 @@ Destination: ${this.destinationName}`;
       updateTransport();
     } catch (e) {
       console.error(e);
-      setEngine("error", "engine.error");
+      const safari = /Apple/i.test(navigator.vendor || "") && !/Chrome|Chromium|Edg/i.test(navigator.userAgent);
+      const localFile = location.protocol === "file:";
+      setEngine("error", safari && localFile ? "engine.safari" : "engine.error");
       $("#engine").style.cursor = "pointer";
       $("#engine").onclick = () => {
         $("#engine").onclick = null;

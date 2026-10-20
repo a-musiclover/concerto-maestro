@@ -65,7 +65,12 @@ async function bootEngine() {
     updateTransport();
   } catch (e) {
     console.error(e);
-    setEngine('error', 'engine.error');
+    // The overwhelming first-run failure for a friend is opening the offline
+    // file in Safari, where the AudioWorklet never starts. Say so by name
+    // rather than showing a generic "soundbank failed".
+    const safari = /Apple/i.test(navigator.vendor || '') && !/Chrome|Chromium|Edg/i.test(navigator.userAgent);
+    const localFile = location.protocol === 'file:';
+    setEngine('error', safari && localFile ? 'engine.safari' : 'engine.error');
     $('#engine').style.cursor = 'pointer';
     $('#engine').onclick = () => {
       $('#engine').onclick = null;

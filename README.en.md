@@ -4,7 +4,12 @@
   <a href="README.md"><kbd>简体中文</kbd></a> · <kbd>English</kbd>
 </p>
 
-> A web page for piano students to rehearse concertos in private. **What plays is the orchestra with the piano taken out.** Tempo, sections and loops are yours. Practise it a hundred times; nobody is inconvenienced.
+> ### ⬇ [Download ConcertoMaestro-standalone.zip](https://github.com/a-musiclover/concerto-maestro/releases/latest/download/ConcertoMaestro-standalone.zip)　(17 MB)
+>
+> **Unzip → double-click `index.html` → practise.** Nothing to install, no network needed.
+> Open it with Chrome or Edge; Safari has no sound.
+
+A web page for piano students to rehearse concertos in private. **What plays is the orchestra with the piano taken out.** Tempo, sections and loops are yours. Practise it a hundred times; nobody is inconvenienced.
 
 ![Concerto Maestro](docs/screenshot-en.png)
 
@@ -43,11 +48,14 @@ pnpm start              # http://127.0.0.1:5273/
 
 ## Give it to someone: the double-click build
 
+**The download link for players is [Releases](https://github.com/a-musiclover/concerto-maestro/releases/latest)** — grab the 17 MB zip, unzip, double-click.
+
+To rebuild it yourself:
+
 ```bash
 pnpm run dist           # → ConcertoMaestro-standalone.zip (~17 MB)
 ```
-
-Unzip → double-click `ConcertoMaestro/index.html`. **No server, no install, no network.**
+Upload the zip to a release; the `releases/latest/download/` link always points at the newest one, so the README never needs editing.
 
 Four things the browser kills on `file://`, and the workarounds:
 

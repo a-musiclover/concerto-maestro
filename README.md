@@ -4,7 +4,12 @@
   <kbd>简体中文</kbd> · <a href="README.en.md"><kbd>English</kbd></a>
 </p>
 
-> 给钢琴系学生私下练协奏曲用的网页：**放的是去掉钢琴的乐团**。速度、段落、循环都由你定，练一百遍也不用跟任何人客气。
+> ### ⬇ [下载 ConcertoMaestro-standalone.zip](https://github.com/a-musiclover/concerto-maestro/releases/latest/download/ConcertoMaestro-standalone.zip)　（17 MB）
+>
+> **解压 → 双击 `index.html` → 就能练。** 不用装任何东西，不用联网。
+> 用 Chrome 或 Edge 打开；Safari 会没有声音。
+
+给钢琴系学生私下练协奏曲用的网页：**放的是去掉钢琴的乐团**。速度、段落、循环都由你定，练一百遍也不用跟任何人客气。
 
 ![Concerto Maestro](docs/screenshot.png)
 
@@ -43,11 +48,14 @@ pnpm start              # http://127.0.0.1:5273/
 
 ## 发给别人：解压就能用的版本
 
+**给使用者的入口是 [Releases](https://github.com/a-musiclover/concerto-maestro/releases/latest)**，下载那个 17 MB 的 zip，解压双击即可。
+
+自己重新打包：
+
 ```bash
 pnpm run dist           # → ConcertoMaestro-standalone.zip（约 17 MB）
 ```
-
-对方解压 → 双击 `ConcertoMaestro/index.html` → 完事。**不需要服务器、不需要装任何东西、不需要联网。**
+之后把 zip 传到 Releases 即可（`releases/latest/download/` 这个链接会一直指向最新版，不用改 README）。
 
 ### `file://` 下要绕的四个坑
 

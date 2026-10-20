@@ -18,6 +18,7 @@ const dict = {
     'engine.soundbank': '载入音色库…',
     'engine.ready': '音源就绪',
     'engine.error': '音源加载失败 · 点此重试',
+    'engine.safari': 'Safari 不支持本地音频 · 请用 Chrome / Edge 打开这个文件',
     'engine.blocked': '浏览器拦住了播放，点一下页面任意处再按播放',
 
     'side.catalog': '曲目',
@@ -80,6 +81,7 @@ const dict = {
     'engine.soundbank': 'Loading soundbank…',
     'engine.ready': 'Ready',
     'engine.error': 'Soundbank failed · click to retry',
+    'engine.safari': 'Safari blocks local audio — open this file with Chrome or Edge',
     'engine.blocked': 'Browser blocked playback — click anywhere, then press play',
 
     'side.catalog': 'Repertoire',
