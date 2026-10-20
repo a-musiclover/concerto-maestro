@@ -138,7 +138,12 @@ async function main() {
     // zip the folder itself so unzipping gives one clean directory
     execFileSync('zip', ['-r', '-q', '-X', zip, 'ConcertoMaestro'], { cwd: DIST, stdio: 'inherit' });
     const size = fs.statSync(zip).size;
-    log(`  ${path.relative(ROOT, zip)}  ${mb(size)}`);
+    const sha = execFileSync('shasum', ['-a', '256', zip]).toString().split(' ')[0];
+    log(`  ${zip}`);
+    log(`  ${mb(size)}   sha256 ${sha.slice(0, 16)}…`);
+    log('');
+    log('  上传到 GitHub Releases 时用这个文件，文件名不要改：');
+    log('  releases/latest/download/<filename> 是按文件名匹配的。');
   }
 }
 
