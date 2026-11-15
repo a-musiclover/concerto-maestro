@@ -455,8 +455,13 @@ function extractVoice(voiceText, voiceHeader, seg0) {
           dur: n.dur * scale,
           midi,
           vel: velocityFor(n, midi),
-          tieStart: !!(n.el.startTie && n.el.startTie.length),
-          tieEnd: !!(n.el.endTie && n.el.endTie.length),
+          // abcjs hangs the tie flags off the *pitch*, not the element, and
+          // startTie is a bare {} rather than an array — so both "read it off
+          // the element" and "check .length" silently produced false for every
+          // note. The result was that no tie was ever merged and every held
+          // note got re-attacked. Truthiness is the right test.
+          tieStart: !!p.startTie,
+          tieEnd: !!p.endTie,
         });
       }
     }

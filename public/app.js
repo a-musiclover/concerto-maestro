@@ -7150,8 +7150,9 @@ Destination: ${this.destinationName}`;
     _tick() {
       if (!this.playing) return;
       const now = this.ctx.currentTime;
-      const secOfAnchor = this.tmap.beatToSec(this._anchorBeat);
+      let secOfAnchor = this.tmap.beatToSec(this._anchorBeat);
       let musicSec = secOfAnchor + (now - this._anchorCtx);
+      let horizonBeat = Infinity;
       if (this.loop) {
         const aBeat = this.tmap.starts[this.loop.aBar - 1] ?? 0;
         const bBeat = this.tmap.starts[this.loop.bBar] ?? this.piece.totalBeats;
@@ -7162,10 +7163,12 @@ Destination: ${this.destinationName}`;
           this._anchorBeat = aBeat;
           this._anchorCtx = now + 0.03;
           this.cursor = this._indexAtBeat(aBeat);
+          secOfAnchor = aSec;
           musicSec = aSec;
         }
+        horizonBeat = bBeat;
       }
-      const horizon = this.tmap.secToBeat(musicSec + LOOKAHEAD);
+      const horizon = Math.min(this.tmap.secToBeat(musicSec + LOOKAHEAD), horizonBeat);
       const ev = this.events;
       while (this.cursor < ev.length && ev[this.cursor].b < horizon) {
         const e = ev[this.cursor++];

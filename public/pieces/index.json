@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T23:55:37.166Z",
+ "generatedAt": "2026-11-15T07:15:18.485Z",
  "pieces": [
   {
    "id": "chopin-1-m1",
@@ -13,7 +13,7 @@
    "baseBpm": 126,
    "totalMeasures": 690,
    "trackCount": 13,
-   "noteCount": 9224,
+   "noteCount": 8829,
    "tracks": [
     {
      "label": "Flutes",
@@ -108,7 +108,7 @@
    "baseBpm": 80,
    "totalMeasures": 126,
    "trackCount": 9,
-   "noteCount": 1445,
+   "noteCount": 1352,
    "tracks": [
     {
      "label": "Flutes",
@@ -178,7 +178,7 @@
    "baseBpm": 104,
    "totalMeasures": 521,
    "trackCount": 13,
-   "noteCount": 7844,
+   "noteCount": 7292,
    "tracks": [
     {
      "label": "Flutes",
@@ -272,7 +272,7 @@
    "baseBpm": 120,
    "totalMeasures": 349,
    "trackCount": 13,
-   "noteCount": 7362,
+   "noteCount": 7224,
    "tracks": [
     {
      "label": "Flutes",
@@ -366,7 +366,7 @@
    "baseBpm": 50,
    "totalMeasures": 97,
    "trackCount": 10,
-   "noteCount": 1079,
+   "noteCount": 1037,
    "tracks": [
     {
      "label": "Flutes",
@@ -442,7 +442,7 @@
    "baseBpm": 215,
    "totalMeasures": 515,
    "trackCount": 13,
-   "noteCount": 4940,
+   "noteCount": 4505,
    "tracks": [
     {
      "label": "Flutes",
@@ -536,7 +536,7 @@
    "baseBpm": 144,
    "totalMeasures": 479,
    "trackCount": 11,
-   "noteCount": 9378,
+   "noteCount": 9254,
    "tracks": [
     {
      "label": "Flutes",
@@ -618,7 +618,7 @@
    "baseBpm": 56,
    "totalMeasures": 119,
    "trackCount": 8,
-   "noteCount": 3341,
+   "noteCount": 3295,
    "tracks": [
     {
      "label": "Clarinets",
@@ -682,7 +682,7 @@
    "baseBpm": 144,
    "totalMeasures": 573,
    "trackCount": 12,
-   "noteCount": 10592,
+   "noteCount": 10404,
    "tracks": [
     {
      "label": "Flutes",
@@ -770,7 +770,7 @@
    "baseBpm": 152,
    "totalMeasures": 400,
    "trackCount": 9,
-   "noteCount": 8239,
+   "noteCount": 8140,
    "tracks": [
     {
      "label": "Flutes",
@@ -840,7 +840,7 @@
    "baseBpm": 42,
    "totalMeasures": 91,
    "trackCount": 9,
-   "noteCount": 2777,
+   "noteCount": 2748,
    "tracks": [
     {
      "label": "Flutes",
@@ -910,7 +910,7 @@
    "baseBpm": 168,
    "totalMeasures": 327,
    "trackCount": 9,
-   "noteCount": 5575,
+   "noteCount": 5486,
    "tracks": [
     {
      "label": "Flutes",
@@ -980,7 +980,7 @@
    "baseBpm": 110,
    "totalMeasures": 422,
    "trackCount": 10,
-   "noteCount": 9511,
+   "noteCount": 9229,
    "tracks": [
     {
      "label": "Flutes",
@@ -1056,7 +1056,7 @@
    "baseBpm": 42,
    "totalMeasures": 72,
    "trackCount": 5,
-   "noteCount": 586,
+   "noteCount": 577,
    "tracks": [
     {
      "label": "Violins I",
@@ -1102,7 +1102,7 @@
    "baseBpm": 136,
    "totalMeasures": 637,
    "trackCount": 12,
-   "noteCount": 8712,
+   "noteCount": 8280,
    "tracks": [
     {
      "label": "Flutes",
@@ -1190,7 +1190,7 @@
    "baseBpm": 120,
    "totalMeasures": 584,
    "trackCount": 12,
-   "noteCount": 18402,
+   "noteCount": 18114,
    "tracks": [
     {
      "label": "Flutes",
@@ -1278,7 +1278,7 @@
    "baseBpm": 48,
    "totalMeasures": 83,
    "trackCount": 9,
-   "noteCount": 1256,
+   "noteCount": 1244,
    "tracks": [
     {
      "label": "Flutes",
@@ -1350,7 +1350,7 @@
    "baseBpm": 129,
    "totalMeasures": 431,
    "trackCount": 11,
-   "noteCount": 9568,
+   "noteCount": 9496,
    "tracks": [
     {
      "label": "Flutes",
@@ -1434,7 +1434,7 @@
    "baseBpm": 84,
    "totalMeasures": 226,
    "trackCount": 13,
-   "noteCount": 5917,
+   "noteCount": 5806,
    "tracks": [
     {
      "label": "Flutes",
@@ -1530,7 +1530,7 @@
    "baseBpm": 84,
    "totalMeasures": 84,
    "trackCount": 10,
-   "noteCount": 1260,
+   "noteCount": 1219,
    "tracks": [
     {
      "label": "Flutes",
@@ -1607,7 +1607,7 @@
    "baseBpm": 108,
    "totalMeasures": 442,
    "trackCount": 13,
-   "noteCount": 7250,
+   "noteCount": 7015,
    "tracks": [
     {
      "label": "Flutes",
@@ -1703,7 +1703,7 @@
    "baseBpm": 170,
    "totalMeasures": 270,
    "trackCount": 11,
-   "noteCount": 4919,
+   "noteCount": 4888,
    "tracks": [
     {
      "label": "Flutes",
@@ -1785,7 +1785,7 @@
    "baseBpm": 40,
    "totalMeasures": 91,
    "trackCount": 8,
-   "noteCount": 1125,
+   "noteCount": 1080,
    "tracks": [
     {
      "label": "Flutes",
@@ -1850,7 +1850,7 @@
    "baseBpm": 180,
    "totalMeasures": 283,
    "trackCount": 11,
-   "noteCount": 5657,
+   "noteCount": 5598,
    "tracks": [
     {
      "label": "Flutes",
@@ -1932,7 +1932,7 @@
    "baseBpm": 70,
    "totalMeasures": 1140,
    "trackCount": 13,
-   "noteCount": 22868,
+   "noteCount": 22568,
    "tracks": [
     {
      "label": "Flutes",
@@ -2029,7 +2029,7 @@
    "baseBpm": 60,
    "totalMeasures": 170,
    "trackCount": 13,
-   "noteCount": 1813,
+   "noteCount": 1770,
    "tracks": [
     {
      "label": "Flutes",
@@ -2126,7 +2126,7 @@
    "baseBpm": 126,
    "totalMeasures": 301,
    "trackCount": 13,
-   "noteCount": 8590,
+   "noteCount": 8510,
    "tracks": [
     {
      "label": "Flutes",
@@ -2223,7 +2223,7 @@
    "baseBpm": 130,
    "totalMeasures": 298,
    "trackCount": 13,
-   "noteCount": 7742,
+   "noteCount": 7606,
    "tracks": [
     {
      "label": "Flutes",
@@ -2318,7 +2318,7 @@
    "baseBpm": 60,
    "totalMeasures": 74,
    "trackCount": 13,
-   "noteCount": 1081,
+   "noteCount": 1028,
    "tracks": [
     {
      "label": "Flutes",
@@ -2412,7 +2412,7 @@
    "baseBpm": 160,
    "totalMeasures": 243,
    "trackCount": 14,
-   "noteCount": 8189,
+   "noteCount": 8086,
    "tracks": [
     {
      "label": "Flutes",
@@ -2514,7 +2514,7 @@
    "baseBpm": 80,
    "totalMeasures": 374,
    "trackCount": 13,
-   "noteCount": 6898,
+   "noteCount": 6723,
    "tracks": [
     {
      "label": "Flutes",
@@ -2613,7 +2613,7 @@
    "baseBpm": 52,
    "totalMeasures": 183,
    "trackCount": 13,
-   "noteCount": 2858,
+   "noteCount": 2759,
    "tracks": [
     {
      "label": "Flutes",
@@ -2709,7 +2709,7 @@
    "baseBpm": 232,
    "totalMeasures": 482,
    "trackCount": 15,
-   "noteCount": 11128,
+   "noteCount": 10904,
    "tracks": [
     {
      "label": "Flutes",
@@ -2819,7 +2819,7 @@
    "baseBpm": 63,
    "totalMeasures": 200,
    "trackCount": 14,
-   "noteCount": 5588,
+   "noteCount": 5572,
    "tracks": [
     {
      "label": "Flutes",
@@ -2920,7 +2920,7 @@
    "baseBpm": 165,
    "totalMeasures": 187,
    "trackCount": 13,
-   "noteCount": 4774,
+   "noteCount": 4764,
    "tracks": [
     {
      "label": "Flutes",
@@ -3015,7 +3015,7 @@
    "baseBpm": 85,
    "totalMeasures": 159,
    "trackCount": 15,
-   "noteCount": 6346,
+   "noteCount": 6324,
    "tracks": [
     {
      "label": "Flutes",
@@ -3124,7 +3124,7 @@
    "baseBpm": 180,
    "totalMeasures": 319,
    "trackCount": 15,
-   "noteCount": 10334,
+   "noteCount": 10302,
    "tracks": [
     {
      "label": "Flutes",
@@ -3232,7 +3232,7 @@
    "baseBpm": 72,
    "totalMeasures": 277,
    "trackCount": 15,
-   "noteCount": 12194,
+   "noteCount": 12162,
    "tracks": [
     {
      "label": "Flutes",
@@ -3341,7 +3341,7 @@
    "baseBpm": 70,
    "totalMeasures": 219,
    "trackCount": 15,
-   "noteCount": 6466,
+   "noteCount": 6411,
    "tracks": [
     {
      "label": "Flutes",
@@ -3448,7 +3448,7 @@
    "baseBpm": 160,
    "totalMeasures": 419,
    "trackCount": 14,
-   "noteCount": 10786,
+   "noteCount": 10702,
    "tracks": [
     {
      "label": "Flutes",
@@ -3550,7 +3550,7 @@
    "baseBpm": 102,
    "totalMeasures": 376,
    "trackCount": 12,
-   "noteCount": 9007,
+   "noteCount": 8847,
    "tracks": [
     {
      "label": "Flutes",
@@ -3639,7 +3639,7 @@
    "baseBpm": 228,
    "totalMeasures": 465,
    "trackCount": 12,
-   "noteCount": 6407,
+   "noteCount": 6100,
    "tracks": [
     {
      "label": "Flutes",
@@ -3728,7 +3728,7 @@
    "baseBpm": 84,
    "totalMeasures": 100,
    "trackCount": 10,
-   "noteCount": 1784,
+   "noteCount": 1735,
    "tracks": [
     {
      "label": "Flutes",
@@ -3805,7 +3805,7 @@
    "baseBpm": 104,
    "totalMeasures": 490,
    "trackCount": 10,
-   "noteCount": 7016,
+   "noteCount": 6894,
    "tracks": [
     {
      "label": "Flutes",
@@ -3882,7 +3882,7 @@
    "baseBpm": 232,
    "totalMeasures": 325,
    "trackCount": 15,
-   "noteCount": 6934,
+   "noteCount": 6804,
    "tracks": [
     {
      "label": "Flutes",
@@ -4001,7 +4001,7 @@
    "baseBpm": 38,
    "totalMeasures": 108,
    "trackCount": 13,
-   "noteCount": 1105,
+   "noteCount": 938,
    "tracks": [
     {
      "label": "Flutes",
@@ -4098,7 +4098,7 @@
    "baseBpm": 187,
    "totalMeasures": 306,
    "trackCount": 15,
-   "noteCount": 5047,
+   "noteCount": 5002,
    "tracks": [
     {
      "label": "Flutes",
@@ -4212,7 +4212,7 @@
    "baseBpm": 144,
    "totalMeasures": 544,
    "trackCount": 12,
-   "noteCount": 7489,
+   "noteCount": 7360,
    "tracks": [
     {
      "label": "Flutes",
@@ -4300,7 +4300,7 @@
    "baseBpm": 60,
    "totalMeasures": 110,
    "trackCount": 10,
-   "noteCount": 1207,
+   "noteCount": 1181,
    "tracks": [
     {
      "label": "Flutes",
@@ -4376,7 +4376,7 @@
    "baseBpm": 172,
    "totalMeasures": 871,
    "trackCount": 12,
-   "noteCount": 9493,
+   "noteCount": 9375,
    "tracks": [
     {
      "label": "Flutes",
@@ -4464,7 +4464,7 @@
    "baseBpm": 132,
    "totalMeasures": 397,
    "trackCount": 11,
-   "noteCount": 9109,
+   "noteCount": 8937,
    "tracks": [
     {
      "label": "Flutes",
@@ -4546,7 +4546,7 @@
    "baseBpm": 88,
    "totalMeasures": 162,
    "trackCount": 9,
-   "noteCount": 3428,
+   "noteCount": 3391,
    "tracks": [
     {
      "label": "Flutes",
@@ -4616,7 +4616,7 @@
    "baseBpm": 264,
    "totalMeasures": 429,
    "trackCount": 11,
-   "noteCount": 6050,
+   "noteCount": 5939,
    "tracks": [
     {
      "label": "Flutes",
@@ -4698,7 +4698,7 @@
    "baseBpm": 126,
    "totalMeasures": 417,
    "trackCount": 11,
-   "noteCount": 9588,
+   "noteCount": 9466,
    "tracks": [
     {
      "label": "Flutes",
@@ -4780,7 +4780,7 @@
    "baseBpm": 72,
    "totalMeasures": 104,
    "trackCount": 9,
-   "noteCount": 4250,
+   "noteCount": 4225,
    "tracks": [
     {
      "label": "Flutes",
@@ -4850,7 +4850,7 @@
    "baseBpm": 164,
    "totalMeasures": 447,
    "trackCount": 11,
-   "noteCount": 5220,
+   "noteCount": 5074,
    "tracks": [
     {
      "label": "Flutes",
@@ -4932,7 +4932,7 @@
    "baseBpm": 140,
    "totalMeasures": 381,
    "trackCount": 11,
-   "noteCount": 9471,
+   "noteCount": 9367,
    "tracks": [
     {
      "label": "Flutes",
@@ -5014,7 +5014,7 @@
    "baseBpm": 132,
    "totalMeasures": 523,
    "trackCount": 12,
-   "noteCount": 10021,
+   "noteCount": 9804,
    "tracks": [
     {
      "label": "Flutes",
@@ -5102,7 +5102,7 @@
    "baseBpm": 52,
    "totalMeasures": 89,
    "trackCount": 11,
-   "noteCount": 3096,
+   "noteCount": 3059,
    "tracks": [
     {
      "label": "Flutes",
@@ -5184,7 +5184,7 @@
    "baseBpm": 126,
    "totalMeasures": 293,
    "trackCount": 12,
-   "noteCount": 5198,
+   "noteCount": 5122,
    "tracks": [
     {
      "label": "Flutes",
@@ -5272,7 +5272,7 @@
    "baseBpm": 138,
    "totalMeasures": 266,
    "trackCount": 8,
-   "noteCount": 5780,
+   "noteCount": 5753,
    "tracks": [
     {
      "label": "Oboes",
@@ -5336,7 +5336,7 @@
    "baseBpm": 55,
    "totalMeasures": 136,
    "trackCount": 6,
-   "noteCount": 2163,
+   "noteCount": 2144,
    "tracks": [
     {
      "label": "Oboes",
@@ -5388,7 +5388,7 @@
    "baseBpm": 256,
    "totalMeasures": 323,
    "trackCount": 8,
-   "noteCount": 3144,
+   "noteCount": 3072,
    "tracks": [
     {
      "label": "Oboes",
@@ -5452,7 +5452,7 @@
    "baseBpm": 130,
    "totalMeasures": 169,
    "trackCount": 7,
-   "noteCount": 3218,
+   "noteCount": 3199,
    "tracks": [
     {
      "label": "Oboes",
@@ -5510,7 +5510,7 @@
    "baseBpm": 45,
    "totalMeasures": 75,
    "trackCount": 6,
-   "noteCount": 1121,
+   "noteCount": 1114,
    "tracks": [
     {
      "label": "Horns",
@@ -5562,7 +5562,7 @@
    "baseBpm": 135,
    "totalMeasures": 224,
    "trackCount": 7,
-   "noteCount": 2711,
+   "noteCount": 2690,
    "tracks": [
     {
      "label": "Oboes",
@@ -5620,7 +5620,7 @@
    "baseBpm": 120,
    "totalMeasures": 174,
    "trackCount": 7,
-   "noteCount": 3134,
+   "noteCount": 3128,
    "tracks": [
     {
      "label": "Oboes",
@@ -5678,7 +5678,7 @@
    "baseBpm": 65,
    "totalMeasures": 92,
    "trackCount": 7,
-   "noteCount": 1917,
+   "noteCount": 1903,
    "tracks": [
     {
      "label": "Oboes",
@@ -5736,7 +5736,7 @@
    "baseBpm": 75,
    "totalMeasures": 141,
    "trackCount": 7,
-   "noteCount": 2041,
+   "noteCount": 2014,
    "tracks": [
     {
      "label": "Oboes",
@@ -5794,7 +5794,7 @@
    "baseBpm": 130,
    "totalMeasures": 162,
    "trackCount": 8,
-   "noteCount": 3268,
+   "noteCount": 3253,
    "tracks": [
     {
      "label": "Oboes",
@@ -5858,7 +5858,7 @@
    "baseBpm": 30,
    "totalMeasures": 73,
    "trackCount": 7,
-   "noteCount": 1268,
+   "noteCount": 1264,
    "tracks": [
     {
      "label": "Oboes",
@@ -5916,7 +5916,7 @@
    "baseBpm": 142,
    "totalMeasures": 225,
    "trackCount": 8,
-   "noteCount": 2437,
+   "noteCount": 2404,
    "tracks": [
     {
      "label": "Oboes",
@@ -5980,7 +5980,7 @@
    "baseBpm": 130,
    "totalMeasures": 226,
    "trackCount": 7,
-   "noteCount": 3078,
+   "noteCount": 3061,
    "tracks": [
     {
      "label": "Flutes",
@@ -6038,7 +6038,7 @@
    "baseBpm": 35,
    "totalMeasures": 82,
    "trackCount": 7,
-   "noteCount": 1265,
+   "noteCount": 1246,
    "tracks": [
     {
      "label": "Flutes",
@@ -6096,7 +6096,7 @@
    "baseBpm": 140,
    "totalMeasures": 172,
    "trackCount": 7,
-   "noteCount": 2904,
+   "noteCount": 2868,
    "tracks": [
     {
      "label": "Flutes",
@@ -6154,7 +6154,7 @@
    "baseBpm": 144,
    "totalMeasures": 378,
    "trackCount": 6,
-   "noteCount": 3444,
+   "noteCount": 3435,
    "tracks": [
     {
      "label": "Oboes",
@@ -6206,7 +6206,7 @@
    "baseBpm": 63,
    "totalMeasures": 68,
    "trackCount": 7,
-   "noteCount": 1510,
+   "noteCount": 1492,
    "tracks": [
     {
      "label": "Oboes",
@@ -6264,7 +6264,7 @@
    "baseBpm": 120,
    "totalMeasures": 231,
    "trackCount": 6,
-   "noteCount": 1733,
+   "noteCount": 1691,
    "tracks": [
     {
      "label": "Oboes",
@@ -6316,7 +6316,7 @@
    "baseBpm": 144,
    "totalMeasures": 169,
    "trackCount": 6,
-   "noteCount": 2765,
+   "noteCount": 2746,
    "tracks": [
     {
      "label": "Oboes",
@@ -6368,7 +6368,7 @@
    "baseBpm": 92,
    "totalMeasures": 66,
    "trackCount": 5,
-   "noteCount": 918,
+   "noteCount": 911,
    "tracks": [
     {
      "label": "Horns",
@@ -6414,7 +6414,7 @@
    "baseBpm": 100,
    "totalMeasures": 189,
    "trackCount": 6,
-   "noteCount": 2283,
+   "noteCount": 2266,
    "tracks": [
     {
      "label": "Oboes",
@@ -6466,7 +6466,7 @@
    "baseBpm": 144,
    "totalMeasures": 203,
    "trackCount": 8,
-   "noteCount": 4203,
+   "noteCount": 4104,
    "tracks": [
     {
      "label": "Flutes",
@@ -6530,7 +6530,7 @@
    "baseBpm": 120,
    "totalMeasures": 108,
    "trackCount": 13,
-   "noteCount": 2178,
+   "noteCount": 2150,
    "tracks": [
     {
      "label": "Flutes",
@@ -6626,7 +6626,7 @@
    "baseBpm": 80,
    "totalMeasures": 76,
    "trackCount": 10,
-   "noteCount": 622,
+   "noteCount": 599,
    "tracks": [
     {
      "label": "Flutes",
@@ -6702,7 +6702,7 @@
    "baseBpm": 120,
    "totalMeasures": 175,
    "trackCount": 14,
-   "noteCount": 2781,
+   "noteCount": 2767,
    "tracks": [
     {
      "label": "Flutes",
@@ -6804,7 +6804,7 @@
    "baseBpm": 140,
    "totalMeasures": 162,
    "trackCount": 14,
-   "noteCount": 4458,
+   "noteCount": 4438,
    "tracks": [
     {
      "label": "Flutes",

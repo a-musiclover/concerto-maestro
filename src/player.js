@@ -347,8 +347,11 @@ export class Player {
   _tick() {
     if (!this.playing) return;
     const now = this.ctx.currentTime;
-    const secOfAnchor = this.tmap.beatToSec(this._anchorBeat);
+    let secOfAnchor = this.tmap.beatToSec(this._anchorBeat);
     let musicSec = secOfAnchor + (now - this._anchorCtx);
+    // Never schedule past the loop end: the next iteration's attacks would be
+    // queued before the wrap fires and would survive stopAll().
+    let horizonBeat = Infinity;
 
     // loop wrap
     if (this.loop) {
@@ -361,11 +364,16 @@ export class Player {
         this._anchorBeat = aBeat;
         this._anchorCtx = now + 0.03;
         this.cursor = this._indexAtBeat(aBeat);
+        // Re-anchor the beat-to-seconds reference as well. Leaving it on the old
+        // anchor schedules the first pass after a wrap far in the future, which
+        // is heard as a late, missed entry.
+        secOfAnchor = aSec;
         musicSec = aSec;
       }
+      horizonBeat = bBeat;
     }
 
-    const horizon = this.tmap.secToBeat(musicSec + LOOKAHEAD);
+    const horizon = Math.min(this.tmap.secToBeat(musicSec + LOOKAHEAD), horizonBeat);
     const ev = this.events;
     while (this.cursor < ev.length && ev[this.cursor].b < horizon) {
       const e = ev[this.cursor++];
