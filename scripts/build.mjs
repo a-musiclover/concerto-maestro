@@ -392,6 +392,8 @@ function extractVoice(voiceText, voiceHeader, seg0) {
     let mStart = 0;
     let dyn = 'mf';
     let accent = false;
+    let staccato = false;
+    let fermata = false;
     for (const el of flat) {
       if (el.el_type === 'bar') {
         rawMeasures.push({ start: mStart, end: acc });
@@ -403,10 +405,14 @@ function extractVoice(voiceText, voiceHeader, seg0) {
             const k = String(d).toLowerCase();
             if (DYN[k] != null) dyn = k;
             if (k === '>' || k === 'accent') accent = true;
+            if (k === 'staccato') staccato = true;
+            if (k === 'fermata') fermata = true;
           }
         }
-        if (el.pitches && !el.rest) raw.push({ t: acc, dur, el, dyn, accent });
+        if (el.pitches && !el.rest) raw.push({ t: acc, dur, el, dyn, accent, staccato, fermata });
         accent = false;
+        staccato = false;
+        fermata = false;
         acc += dur;
       }
     }
@@ -449,19 +455,35 @@ function extractVoice(voiceText, voiceHeader, seg0) {
         else accOff = kMap.get(step) || 0;
         const midi = 12 * (oct + 5) + STEP_SEMI[step] + accOff + transpose;
         if (midi < 12 || midi > 108) continue;
+        // Articulation as a bitfield on the note tuple. Staccato is applied to
+        // the duration now (it is audible with any sample set); the rest is
+        // recorded so a performance layer can use it without re-parsing ABC.
+        //   1 staccato · 2 accent · 4 fermata · 8 slur start · 16 slur end
+        let art = 0;
+        if (n.staccato) art |= 1;
+        if (n.accent) art |= 2;
+        if (n.fermata) art |= 4;
+        if (p.startSlur) art |= 8;
+        if (p.endSlur) art |= 16;
+        let dur = n.dur * scale;
+        // staccato: play about half value, never below a floor that would
+        // vanish under the sample's own attack
+        if (n.staccato) dur = Math.max(Math.min(dur, dur * 0.5), 0.02);
         notes.push({
           mi: miBase + mi,
           pos,
-          dur: n.dur * scale,
+          dur,
           midi,
           vel: velocityFor(n, midi),
           // abcjs hangs the tie flags off the *pitch*, not the element, and
           // startTie is a bare {} rather than an array — so both "read it off
           // the element" and "check .length" silently produced false for every
           // note. The result was that no tie was ever merged and every held
-          // note got re-attacked. Truthiness is the right test.
+          // note got re-attacked. Truthiness is the right test. Slurs live in
+          // exactly the same place and had the same problem.
           tieStart: !!p.startTie,
           tieEnd: !!p.endTie,
+          art,
         });
       }
     }
@@ -591,6 +613,7 @@ function buildPiece(srcFile, meta) {
       ) {
         prev.dur += n.dur + Math.max(0, n.abs - (prev.abs + prev.dur));
         prev.tieStart = n.tieStart;
+        prev.art = (prev.art || 0) | (n.art || 0);
         continue;
       }
       merged.push(n);
@@ -604,7 +627,7 @@ function buildPiece(srcFile, meta) {
       perc: tr.perc,
       voices: [...new Set(tr.voices)],
       noteCount: merged.length,
-      notes: merged.map((n) => [tidy(n.abs), tidy(n.dur), n.midi, n.vel]),
+      notes: merged.map((n) => [tidy(n.abs), tidy(n.dur), n.midi, n.vel, n.art || 0]),
     });
   }
 
