@@ -6986,8 +6986,8 @@ Destination: ${this.destinationName}`;
       this.tmap = new TempoMap(piece);
       const events = [];
       piece.tracks.forEach((tr2, ti) => {
-        for (const [b, d, midi, vel] of tr2.notes) {
-          events.push({ b, d, midi, vel, ch: tr2.channel, ti, idx: events.length });
+        for (const [b, d, midi, vel, art = 0] of tr2.notes) {
+          events.push({ b, d, midi, vel, art, ch: tr2.channel, ti, idx: events.length });
         }
       });
       events.sort((a, b) => a.b - b.b || a.midi - b.midi);
@@ -7175,7 +7175,8 @@ Destination: ${this.destinationName}`;
         const sec = this.tmap.beatToSec(e.b);
         const at = this._anchorCtx + (sec - secOfAnchor);
         if (at < now - 0.05) continue;
-        const endSec = this.tmap.beatToSec(e.b + e.d);
+        const soundingBeats = e.art & 1 ? Math.max(e.d * 0.5, 0.02) : e.d;
+        const endSec = this.tmap.beatToSec(e.b + soundingBeats);
         const off = this._anchorCtx + (endSec - secOfAnchor);
         if (this.muted.has(this.piece.tracks[e.ti].group)) continue;
         const h2 = this.effects.humanize ? this._offsetFor(e) : 0;

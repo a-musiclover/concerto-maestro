@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T07:25:18.525Z",
+ "generatedAt": "2026-11-15T08:52:20.115Z",
  "pieces": [
   {
    "id": "chopin-1-m1",
@@ -536,7 +536,7 @@
    "baseBpm": 144,
    "totalMeasures": 479,
    "trackCount": 11,
-   "noteCount": 9255,
+   "noteCount": 9254,
    "tracks": [
     {
      "label": "Flutes",
@@ -4212,7 +4212,7 @@
    "baseBpm": 144,
    "totalMeasures": 544,
    "trackCount": 12,
-   "noteCount": 7362,
+   "noteCount": 7360,
    "tracks": [
     {
      "label": "Flutes",
@@ -4300,7 +4300,7 @@
    "baseBpm": 60,
    "totalMeasures": 110,
    "trackCount": 10,
-   "noteCount": 1183,
+   "noteCount": 1181,
    "tracks": [
     {
      "label": "Flutes",
@@ -6466,7 +6466,7 @@
    "baseBpm": 144,
    "totalMeasures": 203,
    "trackCount": 8,
-   "noteCount": 4105,
+   "noteCount": 4104,
    "tracks": [
     {
      "label": "Flutes",

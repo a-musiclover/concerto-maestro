@@ -465,10 +465,11 @@ function extractVoice(voiceText, voiceHeader, seg0) {
         if (n.fermata) art |= 4;
         if (p.startSlur) art |= 8;
         if (p.endSlur) art |= 16;
-        let dur = n.dur * scale;
-        // staccato: play about half value, never below a floor that would
-        // vanish under the sample's own attack
-        if (n.staccato) dur = Math.max(Math.min(dur, dur * 0.5), 0.02);
+        // The baked value is the *notated* length. A staccato mark is recorded
+        // in the articulation bitfield, not applied here: sounding length is a
+        // performance decision that depends on the instrument and the tempo, so
+        // it belongs to playback, where it can be re-decided on every pass.
+        const dur = n.dur * scale;
         notes.push({
           mi: miBase + mi,
           pos,

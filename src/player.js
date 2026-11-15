@@ -164,8 +164,8 @@ export class Player {
     this.tmap = new TempoMap(piece);
     const events = [];
     piece.tracks.forEach((tr, ti) => {
-      for (const [b, d, midi, vel] of tr.notes) {
-        events.push({ b, d, midi, vel, ch: tr.channel, ti, idx: events.length });
+      for (const [b, d, midi, vel, art = 0] of tr.notes) {
+        events.push({ b, d, midi, vel, art, ch: tr.channel, ti, idx: events.length });
       }
     });
     events.sort((a, b) => a.b - b.b || a.midi - b.midi);
@@ -380,7 +380,11 @@ export class Player {
       const sec = this.tmap.beatToSec(e.b);
       const at = this._anchorCtx + (sec - secOfAnchor);
       if (at < now - 0.05) continue; // missed while catching up
-      const endSec = this.tmap.beatToSec(e.b + e.d);
+      // Articulation is applied here, not in the data: a staccato note's
+      // sounding length depends on the instrument and the tempo, so it must be
+      // re-decidable on every pass. Bit 1 = staccato.
+      const soundingBeats = e.art & 1 ? Math.max(e.d * 0.5, 0.02) : e.d;
+      const endSec = this.tmap.beatToSec(e.b + soundingBeats);
       const off = this._anchorCtx + (endSec - secOfAnchor);
       if (this.muted.has(this.piece.tracks[e.ti].group)) continue;
       const h = this.effects.humanize ? this._offsetFor(e) : 0;

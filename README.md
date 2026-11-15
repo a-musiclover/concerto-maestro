@@ -36,15 +36,35 @@
 
 ## 跑起来
 
+**只想练琴？** 别往下看了 —— 去 [Releases](https://github.com/a-musiclover/concerto-maestro/releases/latest) 下那个 17 MB 的包，解压双击。下面这一整节是给想改代码的人的。
+
+从源码跑需要 **Node.js 18+** 和 **pnpm**（不要用 npm，仓库用的是 pnpm 的 workspace 和 lockfile）：
+
 ```bash
-git clone <this repo>
+# 1. 装 pnpm（如果还没有）
+npm install -g pnpm
+
+# 2. 拿代码
+git clone https://github.com/a-musiclover/concerto-maestro.git
 cd concerto-maestro
+
+# 3. 装依赖
 pnpm install
 
-pnpm run build:bank     # 从本机 MuseScore 4 提取并裁剪音源（见下）
-pnpm run build          # 打包前端
-pnpm start              # http://127.0.0.1:5273/
+# 4. 造音源：从本机 MuseScore 4 提取并裁剪（需要装过 MuseScore 4）
+pnpm run build:bank
+
+# 5. 打包前端并启动
+pnpm run build
+pnpm start            # → http://127.0.0.1:5273/
 ```
+
+几个容易踩的点：
+
+- **必须用 pnpm**。`npm install` 会忽略 `pnpm-workspace.yaml` 里的 `allowBuilds`，esbuild 的二进制装不上，后面 `pnpm run build` 会报找不到 esbuild。
+- **`build:bank` 需要本机有 MuseScore 4**（macOS 默认路径 `/Applications/MuseScore 4.app/...`）。装在别处就用 `CM_BANK_SRC=/path/to/MS\ Basic.sf3 pnpm run build:bank`。
+- **`pnpm run build` 已经包含 `build:bank`**，所以第 4 步和第 5 步其实可以合成一步 `pnpm run build`。分开写是为了让你看清音源是哪来的。
+- 改 `src/` 之后必须重新 `pnpm run build` 再提交 —— `public/app.js` 是打包产物，也在仓库里。
 
 ## 发给别人：解压就能用的版本
 

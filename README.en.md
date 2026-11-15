@@ -36,15 +36,35 @@ That is the only thing this tool does.
 
 ## Run it
 
+**Just want to practise?** Skip this — grab the 17 MB package from [Releases](https://github.com/a-musiclover/concerto-maestro/releases/latest), unzip, double-click. Everything below is for people changing the code.
+
+Running from source needs **Node.js 18+** and **pnpm** (not npm — the repo uses a pnpm workspace and lockfile):
+
 ```bash
-git clone <this repo>
+# 1. install pnpm if you do not have it
+npm install -g pnpm
+
+# 2. get the code
+git clone https://github.com/a-musiclover/concerto-maestro.git
 cd concerto-maestro
+
+# 3. dependencies
 pnpm install
 
-pnpm run build:bank     # extract and prune the soundbank from your local MuseScore 4
+# 4. build the soundbank from your local MuseScore 4
+pnpm run build:bank
+
+# 5. bundle and start
 pnpm run build
-pnpm start              # http://127.0.0.1:5273/
+pnpm start            # → http://127.0.0.1:5273/
 ```
+
+Traps worth knowing:
+
+- **pnpm, not npm.** `npm install` ignores the `allowBuilds` entry in `pnpm-workspace.yaml`, so esbuild's binary never gets installed and `pnpm run build` then fails with "cannot find esbuild".
+- **`build:bank` needs MuseScore 4** on the machine (default macOS path `/Applications/MuseScore 4.app/...`). Elsewhere: `CM_BANK_SRC=/path/to/MS\ Basic.sf3 pnpm run build:bank`.
+- **`pnpm run build` already runs `build:bank`**, so steps 4 and 5 can be one command. They are split so you can see where the soundbank comes from.
+- After editing `src/`, re-run `pnpm run build` before committing — `public/app.js` is a build artifact and it is committed.
 
 ## Give it to someone: the double-click build
 
