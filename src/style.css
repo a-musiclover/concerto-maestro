@@ -54,7 +54,9 @@ body {
   grid-template-rows: 56px 1fr;
   grid-template-areas:
     "top top"
+    "banner banner"
     "side stage";
+  grid-template-rows: 56px auto 1fr;
 }
 
 /* ---------------------------------------------------------------- topbar */
@@ -284,6 +286,39 @@ body {
 }
 
 /* ----------------------------------------------------------------- stage */
+
+.banner {
+  grid-area: banner;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: rgba(201, 106, 94, 0.12);
+  border-bottom: 1px solid rgba(201, 106, 94, 0.3);
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.banner-inner {
+  max-width: 820px;
+}
+.banner-title {
+  font-weight: 500;
+  color: #e0a08f;
+  margin-bottom: 2px;
+}
+.banner-body code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.banner-body b {
+  color: var(--accent);
+  font-weight: 500;
+}
 
 .stage {
   grid-area: stage;

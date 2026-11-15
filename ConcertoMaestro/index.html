@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Concerto Maestro</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="mark">CM</span>
+          <span class="name">Concerto&nbsp;Maestro</span>
+          <span class="tagline" data-i18n="app.tagline"></span>
+        </div>
+        <div class="top-right">
+          <div class="lang" id="lang" role="group" aria-label="Language">
+            <button data-lang="zh">中</button>
+            <button data-lang="en">EN</button>
+          </div>
+          <div class="meter" id="meter" data-i18n-title="fx.meterTitle">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="engine" id="engine" data-state="idle">
+            <span class="dot"></span><span id="engineLabel" data-i18n="engine.idle"></span>
+          </div>
+        </div>
+      </header>
+
+      <aside class="sidebar">
+        <div class="side-head">
+          <span data-i18n="side.catalog"></span>
+          <span class="count" id="workCount"></span>
+        </div>
+        <nav id="catalog" class="catalog"></nav>
+        <footer class="side-foot">
+          <div class="hint" data-i18n="side.hint"></div>
+        </footer>
+      </aside>
+
+      <main class="stage">
+        <div id="empty" class="empty">
+          <div class="empty-inner">
+            <h1 data-i18n="empty.title"></h1>
+            <p data-i18n-html="empty.body"></p>
+          </div>
+        </div>
+
+        <section id="piece" class="piece" hidden>
+          <div class="piece-head">
+            <div class="work-title" id="workTitle"></div>
+            <div class="movement-title" id="movementTitle"></div>
+            <div class="meta" id="pieceMeta"></div>
+          </div>
+
+          <div class="transport">
+            <button id="playBtn" class="play" aria-label="play">
+              <svg viewBox="0 0 24 24" class="ico-play"><path d="M8 5v14l11-7z" /></svg>
+              <svg viewBox="0 0 24 24" class="ico-pause"><path d="M7 5h4v14H7zM13 5h4v14h-4z" /></svg>
+            </button>
+            <div class="readout">
+              <div class="pos">
+                <span class="bar" id="posBar">1</span><span class="of" id="posOf">/ 1</span>
+              </div>
+              <div class="clock"><span id="posTime">0:00</span> <span class="sep">/</span> <span id="totalTime">0:00</span></div>
+            </div>
+
+            <div class="jump">
+              <input id="jumpBar" type="number" min="1" data-i18n-ph="transport.jumpPlaceholder" />
+              <button id="jumpGo" class="ghost small" data-i18n="transport.jump"></button>
+            </div>
+
+            <div class="tempo-block">
+              <label class="tempo-label" for="tempoRange">
+                <span class="unit">♩</span>
+                <input id="tempoNum" class="tempo-num" type="number" min="20" max="320" step="1" />
+              </label>
+              <input id="tempoRange" class="tempo-range" type="range" min="30" max="240" step="1" />
+              <button id="tempoReset" class="ghost" data-i18n="transport.original"></button>
+            </div>
+
+            <div class="loop-block">
+              <button id="loopBtn" class="ghost toggle" data-i18n-title="transport.loopTitle">
+                <svg viewBox="0 0 24 24"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z" /></svg>
+                <span data-i18n="transport.loop"></span>
+              </button>
+              <div class="loop-fields" id="loopFields">
+                <input id="loopA" type="number" min="1" />
+                <span>–</span>
+                <input id="loopB" type="number" min="1" />
+              </div>
+            </div>
+          </div>
+
+          <div class="ruler-wrap">
+            <canvas id="ruler" height="88"></canvas>
+          </div>
+
+          <div class="panel-grid">
+            <div class="panel">
+              <div class="panel-head">
+                <span data-i18n="panel.tempo"></span>
+                <button id="addZone" class="ghost small" data-i18n-html="panel.addZone"></button>
+              </div>
+              <div id="zones" class="zones"></div>
+              <p class="panel-note" data-i18n="panel.tempoNote"></p>
+            </div>
+
+            <div class="panel">
+              <div class="panel-head">
+                <span data-i18n="panel.parts"></span>
+                <span class="dim" id="trackCount"></span>
+              </div>
+              <div id="tracks" class="tracks"></div>
+              <p class="panel-note" data-i18n="panel.partsNote"></p>
+            </div>
+
+            <div class="panel fx">
+              <div class="panel-head">
+                <span data-i18n="panel.fx"></span>
+                <button id="fxAB" class="ghost small"></button>
+              </div>
+              <div class="fx-row">
+                <button id="fxPlacement" class="ghost toggle" aria-pressed="true" data-i18n="fx.placement"></button>
+                <button id="fxReverb" class="ghost toggle" aria-pressed="true" data-i18n="fx.reverb"></button>
+                <button id="fxHumanize" class="ghost toggle" aria-pressed="true" data-i18n="fx.humanize"></button>
+              </div>
+              <div class="fx-wet">
+                <span data-i18n="fx.amount"></span>
+                <input id="fxWet" class="tempo-range" type="range" min="0" max="100" step="1" value="45" />
+                <span id="fxWetVal" class="mono">45%</span>
+              </div>
+              <p class="panel-note" data-i18n-html="fx.note"></p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script defer src="./app.js"></script>
+  </body>
+</html>

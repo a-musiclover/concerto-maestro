@@ -1,7 +1,7 @@
 import './style.css';
 import { applyStaticI18n, getLang, setLang, t } from './i18n.js';
 import { Player } from './player.js';
-import { loadJSON } from './assets.js';
+import { loadJSON, STANDALONE } from './assets.js';
 
 const $ = (s) => document.querySelector(s);
 const BASE = './';
@@ -54,9 +54,26 @@ function setEngine(stateName, key) {
 
 /* ------------------------------------------------------------------ engine */
 
+/**
+ * Safari cannot start an AudioWorklet from a local file, and that failure is
+ * instant and silent unless we say something. Detect it *before* trying so the
+ * message is up while the rest of the page still works, and offer a way out
+ * (serving the folder locally is a one-liner) rather than a dead end.
+ */
+function isSafari() {
+  return /Apple/i.test(navigator.vendor || '') && !/Chrome|Chromium|Edg|OPR/i.test(navigator.userAgent);
+}
+
 async function bootEngine() {
   player = new Player();
   window.__cm = { player, state }; // debugging handle: console access to the engine
+
+  if (isSafari() && location.protocol === 'file:') {
+    setEngine('error', 'engine.safari');
+    const hint = $('#safariHint');
+    if (hint) hint.hidden = false;
+    return;
+  }
   try {
     await player.init(setEngine);
     if (state.current) player.setPiece(state.current);
@@ -657,6 +674,12 @@ cv.addEventListener('pointerup', (e) => {
   cv.releasePointerCapture(e.pointerId);
 });
 
+if ($('#safariHintClose')) {
+  $('#safariHintClose').onclick = () => {
+    $('#safariHint').hidden = true;
+  };
+}
+
 /* ---------------------------------------------------------------- language */
 
 const LANG_KEY = 'cm:v1:lang';
@@ -783,7 +806,14 @@ window.addEventListener('resize', () => {
     renderCatalog();
   } catch (e) {
     console.error(e);
-    $('#empty').innerHTML = `<div class="empty-inner"><h1>${t('empty.notFound')}</h1>
-      <p>${t('empty.buildHint')} <code>pnpm run build:pieces</code></p></div>`;
+    // A player who unzipped badly sees this; a developer who forgot to build
+    // sees the same thing. Different audiences, different instructions.
+    const dev = !STANDALONE;
+    $('#empty').innerHTML =
+      `<div class="empty-inner"><h1>${t('empty.notFound')}</h1><p>` +
+      (dev
+        ? `${t('empty.buildHintDev')} <code>pnpm run build:pieces</code>`
+        : t('empty.buildHintUser')) +
+      `</p></div>`;
   }
 })();

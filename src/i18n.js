@@ -19,6 +19,10 @@ const dict = {
     'engine.ready': '音源就绪',
     'engine.error': '音源加载失败 · 点此重试',
     'engine.safari': 'Safari 不支持本地音频 · 请用 Chrome / Edge 打开这个文件',
+    'safari.title': '当前浏览器打不开声音',
+    'safari.body':
+      'Safari 不允许本地文件（file://）启动音频引擎。两条路都行：<br>一、用 <b>Chrome</b> 或 <b>Edge</b> 打开同一个 <code>index.html</code>；<br>二、想继续用 Safari，就在终端里跑一行 <code>python3 -m http.server 8000</code>（先 cd 到这个文件夹），然后打开 <code>localhost:8000</code>。',
+    'safari.close': '知道了',
     'engine.blocked': '浏览器拦住了播放，点一下页面任意处再按播放',
 
     'side.catalog': '曲目',
@@ -27,8 +31,10 @@ const dict = {
     'empty.title': '选一首，开始排练',
     'empty.body':
       '这里放的是<b>去掉钢琴的乐团</b>。速度、段落、循环都由你定，练一百遍也没人烦。',
-    'empty.notFound': '没找到曲库',
-    'empty.buildHint': '先跑一次构建：',
+    'empty.notFound': '曲库没加载出来',
+    'empty.buildHintDev': '如果是自己从源码跑的，先构建一次：',
+    'empty.buildHintUser':
+      '如果你打开的是解压出来的文件夹：请确认解压完整，并且 <b>双击的是文件夹里的 index.html</b>，而不是把整个压缩包直接在浏览器里打开。',
 
     'transport.original': '原速',
     'transport.loop': '循环',
@@ -82,6 +88,10 @@ const dict = {
     'engine.ready': 'Ready',
     'engine.error': 'Soundbank failed · click to retry',
     'engine.safari': 'Safari blocks local audio — open this file with Chrome or Edge',
+    'safari.title': 'This browser cannot play audio here',
+    'safari.body':
+      'Safari refuses to start an audio engine for local files (file://). Either<br>1. open the same <code>index.html</code> in <b>Chrome</b> or <b>Edge</b>, or<br>2. keep using Safari: run <code>python3 -m http.server 8000</code> inside this folder, then open <code>localhost:8000</code>.',
+    'safari.close': 'Got it',
     'engine.blocked': 'Browser blocked playback — click anywhere, then press play',
 
     'side.catalog': 'Repertoire',
@@ -90,8 +100,10 @@ const dict = {
     'empty.title': 'Pick a piece and start',
     'empty.body':
       'What plays here is the <b>orchestra with the piano removed</b>. Tempo, sections, loops — all yours. Practise it a hundred times; nobody is inconvenienced.',
-    'empty.notFound': 'No repertoire found',
-    'empty.buildHint': 'Build it first:',
+    'empty.notFound': 'The repertoire did not load',
+    'empty.buildHintDev': 'Running from source? Build it first:',
+    'empty.buildHintUser':
+      'Opened the unzipped folder? Make sure the unzip completed and <b>double-click the index.html inside the folder</b> — do not open the .zip itself in a browser.',
 
     'transport.original': 'Default',
     'transport.loop': 'Loop',

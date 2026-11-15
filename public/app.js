@@ -11,13 +11,17 @@
       "engine.ready": "\u97F3\u6E90\u5C31\u7EEA",
       "engine.error": "\u97F3\u6E90\u52A0\u8F7D\u5931\u8D25 \xB7 \u70B9\u6B64\u91CD\u8BD5",
       "engine.safari": "Safari \u4E0D\u652F\u6301\u672C\u5730\u97F3\u9891 \xB7 \u8BF7\u7528 Chrome / Edge \u6253\u5F00\u8FD9\u4E2A\u6587\u4EF6",
+      "safari.title": "\u5F53\u524D\u6D4F\u89C8\u5668\u6253\u4E0D\u5F00\u58F0\u97F3",
+      "safari.body": "Safari \u4E0D\u5141\u8BB8\u672C\u5730\u6587\u4EF6\uFF08file://\uFF09\u542F\u52A8\u97F3\u9891\u5F15\u64CE\u3002\u4E24\u6761\u8DEF\u90FD\u884C\uFF1A<br>\u4E00\u3001\u7528 <b>Chrome</b> \u6216 <b>Edge</b> \u6253\u5F00\u540C\u4E00\u4E2A <code>index.html</code>\uFF1B<br>\u4E8C\u3001\u60F3\u7EE7\u7EED\u7528 Safari\uFF0C\u5C31\u5728\u7EC8\u7AEF\u91CC\u8DD1\u4E00\u884C <code>python3 -m http.server 8000</code>\uFF08\u5148 cd \u5230\u8FD9\u4E2A\u6587\u4EF6\u5939\uFF09\uFF0C\u7136\u540E\u6253\u5F00 <code>localhost:8000</code>\u3002",
+      "safari.close": "\u77E5\u9053\u4E86",
       "engine.blocked": "\u6D4F\u89C8\u5668\u62E6\u4F4F\u4E86\u64AD\u653E\uFF0C\u70B9\u4E00\u4E0B\u9875\u9762\u4EFB\u610F\u5904\u518D\u6309\u64AD\u653E",
       "side.catalog": "\u66F2\u76EE",
       "side.hint": "\u7A7A\u683C \u64AD\u653E / \u6682\u505C \xB7 \u2190\u2192 \u8DF3\u5C0F\u8282 \xB7 L \u5FAA\u73AF",
       "empty.title": "\u9009\u4E00\u9996\uFF0C\u5F00\u59CB\u6392\u7EC3",
       "empty.body": "\u8FD9\u91CC\u653E\u7684\u662F<b>\u53BB\u6389\u94A2\u7434\u7684\u4E50\u56E2</b>\u3002\u901F\u5EA6\u3001\u6BB5\u843D\u3001\u5FAA\u73AF\u90FD\u7531\u4F60\u5B9A\uFF0C\u7EC3\u4E00\u767E\u904D\u4E5F\u6CA1\u4EBA\u70E6\u3002",
-      "empty.notFound": "\u6CA1\u627E\u5230\u66F2\u5E93",
-      "empty.buildHint": "\u5148\u8DD1\u4E00\u6B21\u6784\u5EFA\uFF1A",
+      "empty.notFound": "\u66F2\u5E93\u6CA1\u52A0\u8F7D\u51FA\u6765",
+      "empty.buildHintDev": "\u5982\u679C\u662F\u81EA\u5DF1\u4ECE\u6E90\u7801\u8DD1\u7684\uFF0C\u5148\u6784\u5EFA\u4E00\u6B21\uFF1A",
+      "empty.buildHintUser": "\u5982\u679C\u4F60\u6253\u5F00\u7684\u662F\u89E3\u538B\u51FA\u6765\u7684\u6587\u4EF6\u5939\uFF1A\u8BF7\u786E\u8BA4\u89E3\u538B\u5B8C\u6574\uFF0C\u5E76\u4E14 <b>\u53CC\u51FB\u7684\u662F\u6587\u4EF6\u5939\u91CC\u7684 index.html</b>\uFF0C\u800C\u4E0D\u662F\u628A\u6574\u4E2A\u538B\u7F29\u5305\u76F4\u63A5\u5728\u6D4F\u89C8\u5668\u91CC\u6253\u5F00\u3002",
       "transport.original": "\u539F\u901F",
       "transport.loop": "\u5FAA\u73AF",
       "transport.loopTitle": "A\u2013B \u5FAA\u73AF\uFF08L\uFF09",
@@ -60,13 +64,17 @@
       "engine.ready": "Ready",
       "engine.error": "Soundbank failed \xB7 click to retry",
       "engine.safari": "Safari blocks local audio \u2014 open this file with Chrome or Edge",
+      "safari.title": "This browser cannot play audio here",
+      "safari.body": "Safari refuses to start an audio engine for local files (file://). Either<br>1. open the same <code>index.html</code> in <b>Chrome</b> or <b>Edge</b>, or<br>2. keep using Safari: run <code>python3 -m http.server 8000</code> inside this folder, then open <code>localhost:8000</code>.",
+      "safari.close": "Got it",
       "engine.blocked": "Browser blocked playback \u2014 click anywhere, then press play",
       "side.catalog": "Repertoire",
       "side.hint": "Space play/pause \xB7 \u2190\u2192 bar \xB7 L loop",
       "empty.title": "Pick a piece and start",
       "empty.body": "What plays here is the <b>orchestra with the piano removed</b>. Tempo, sections, loops \u2014 all yours. Practise it a hundred times; nobody is inconvenienced.",
-      "empty.notFound": "No repertoire found",
-      "empty.buildHint": "Build it first:",
+      "empty.notFound": "The repertoire did not load",
+      "empty.buildHintDev": "Running from source? Build it first:",
+      "empty.buildHintUser": "Opened the unzipped folder? Make sure the unzip completed and <b>double-click the index.html inside the folder</b> \u2014 do not open the .zip itself in a browser.",
       "transport.original": "Default",
       "transport.loop": "Loop",
       "transport.loopTitle": "A\u2013B loop (L)",
@@ -7213,9 +7221,18 @@ Destination: ${this.destinationName}`;
     $("#engine").dataset.state = stateName;
     $("#engineLabel").textContent = key.startsWith("engine.") ? t(key) : key;
   }
+  function isSafari() {
+    return /Apple/i.test(navigator.vendor || "") && !/Chrome|Chromium|Edg|OPR/i.test(navigator.userAgent);
+  }
   async function bootEngine() {
     player = new Player();
     window.__cm = { player, state };
+    if (isSafari() && location.protocol === "file:") {
+      setEngine("error", "engine.safari");
+      const hint = $("#safariHint");
+      if (hint) hint.hidden = false;
+      return;
+    }
     try {
       await player.init(setEngine);
       if (state.current) player.setPiece(state.current);
@@ -7730,6 +7747,11 @@ Destination: ${this.destinationName}`;
     state.dragging = false;
     cv.releasePointerCapture(e.pointerId);
   });
+  if ($("#safariHintClose")) {
+    $("#safariHintClose").onclick = () => {
+      $("#safariHint").hidden = true;
+    };
+  }
   var LANG_KEY = "cm:v1:lang";
   function renderLang() {
     const cur = getLang();
@@ -7834,8 +7856,8 @@ Destination: ${this.destinationName}`;
       renderCatalog();
     } catch (e) {
       console.error(e);
-      $("#empty").innerHTML = `<div class="empty-inner"><h1>${t("empty.notFound")}</h1>
-      <p>${t("empty.buildHint")} <code>pnpm run build:pieces</code></p></div>`;
+      const dev = !STANDALONE;
+      $("#empty").innerHTML = `<div class="empty-inner"><h1>${t("empty.notFound")}</h1><p>` + (dev ? `${t("empty.buildHintDev")} <code>pnpm run build:pieces</code>` : t("empty.buildHintUser")) + `</p></div>`;
     }
   })();
 })();
