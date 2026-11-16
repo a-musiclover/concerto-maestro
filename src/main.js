@@ -192,8 +192,17 @@ async function selectPiece(id) {
   $('#movementTitle').textContent = piece.movement;
   renderMeta();
 
-  if (player?.ready) player.setPiece(piece);
-  else if (player) player.piece = piece;
+  if (player?.ready) {
+    // the soundbank decodes samples lazily on the audio thread; force that to
+    // happen before the first note instead of during it
+    player.onPrepareProgress = (f) => {
+      if (f >= 1) setEngine('ready', 'engine.ready');
+      else setEngine('loading', 'engine.prepare');
+    };
+    player.setPiece(piece);
+  } else if (player) {
+    player.piece = piece;
+  }
   player?.setEffects(state.fx);
 
   $('#loopBtn').setAttribute('aria-pressed', String(state.loopOn));

@@ -174,6 +174,79 @@ export class Player {
     this.muted.clear();
     this.loop = null;
     this._program();
+    this._prepared = false;
+    this._preparePromise = this.prepare((f) => this.onPrepareProgress?.(f));
+  }
+
+  /**
+   * Decode every sample the piece can reach, before anyone presses play.
+   *
+   * The bank is SF3 (Vorbis), and spessasynth decodes a sample lazily on its
+   * first use — inside the AudioWorklet. A first playback therefore triggers
+   * hundreds of Ogg decodes on the audio thread and misses render deadlines,
+   * which is heard as notes that start and are cut off. Replay is fine because
+   * everything is cached by then.
+   *
+   * There is no "preload" message in the worklet API, so the only way in is to
+   * create voices. We do that with every channel muted, one note at a time, and
+   * release immediately: the decode happens at voice creation regardless of
+   * volume, and the whole thing is inaudible.
+   *
+   * Velocities are picked to land in each velocity layer, since different
+   * layers reference different samples.
+   */
+  async prepare(onProgress) {
+    const synth = this.synth;
+    const piece = this.piece;
+    if (!synth || !piece) return;
+    const chans = [...new Set(piece.tracks.map((t) => t.channel))];
+    const range = new Map();
+    for (const e of this.events) {
+      const r = range.get(e.ch);
+      if (!r) range.set(e.ch, [e.midi, e.midi]);
+      else {
+        if (e.midi < r[0]) r[0] = e.midi;
+        if (e.midi > r[1]) r[1] = e.midi;
+      }
+    }
+    const VELS = [24, 48, 72, 96, 112, 127];
+    let done = 0;
+    let total = 0;
+    for (const ch of chans) {
+      const r = range.get(ch);
+      if (r) total += (r[1] - r[0] + 5) * VELS.length;
+    }
+    for (const ch of chans) synth.controllerChange(ch, 7, 0); // inaudible
+    for (const ch of chans) {
+      const r = range.get(ch);
+      if (!r) continue;
+      const lo = Math.max(0, r[0] - 2);
+      const hi = Math.min(127, r[1] + 2);
+      for (let key = lo; key <= hi; key++) {
+        for (const v of VELS) {
+          synth.noteOn(ch, key, v);
+          synth.noteOff(ch, key);
+          done++;
+        }
+        if (key % 8 === 7) {
+          onProgress?.(done / Math.max(1, total));
+          await new Promise((r2) => setTimeout(r2, 0));
+        }
+      }
+    }
+    synth.stopAll(true);
+    // Barrier. The warm-up notes only *queue* the decode work; awaiting a
+    // snapshot forces the worklet to have processed every message before it,
+    // so "prepared" really means decoded. Without this the first note still
+    // races the audio thread, which is the bug we are trying to remove.
+    try {
+      await synth.getSnapshot();
+    } catch {
+      /* older builds may not answer; fall through and play anyway */
+    }
+    this.applyMix(); // restore channel volumes
+    this._prepared = true;
+    onProgress?.(1);
   }
 
   _hasPreset(bank, program) {
@@ -302,6 +375,16 @@ export class Player {
   play() {
     if (!this.ready || !this.events.length) return;
     this.resume();
+    if (!this._prepared && this._preparePromise) {
+      // finish decoding first; the first note must not race the audio thread
+      this._preparePromise.then(() => this._startPlayback());
+      return;
+    }
+    this._startPlayback();
+  }
+
+  _startPlayback() {
+    if (!this.ready || !this.events.length) return;
     const beat = this._anchorBeat;
     this._anchorCtx = this.ctx.currentTime + 0.06;
     this.cursor = this._indexAtBeat(beat);

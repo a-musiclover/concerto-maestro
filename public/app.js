@@ -9,6 +9,7 @@
       "engine.loading": "\u8F7D\u5165\u97F3\u6E90\u2026",
       "engine.soundbank": "\u8F7D\u5165\u97F3\u8272\u5E93\u2026",
       "engine.ready": "\u97F3\u6E90\u5C31\u7EEA",
+      "engine.prepare": "\u51C6\u5907\u97F3\u8272\u2026",
       "engine.error": "\u97F3\u6E90\u52A0\u8F7D\u5931\u8D25 \xB7 \u70B9\u6B64\u91CD\u8BD5",
       "engine.safari": "Safari \u4E0D\u652F\u6301\u672C\u5730\u97F3\u9891 \xB7 \u8BF7\u7528 Chrome / Edge \u6253\u5F00\u8FD9\u4E2A\u6587\u4EF6",
       "safari.title": "\u5F53\u524D\u6D4F\u89C8\u5668\u6253\u4E0D\u5F00\u58F0\u97F3",
@@ -62,6 +63,7 @@
       "engine.loading": "Loading engine\u2026",
       "engine.soundbank": "Loading soundbank\u2026",
       "engine.ready": "Ready",
+      "engine.prepare": "Preparing\u2026",
       "engine.error": "Soundbank failed \xB7 click to retry",
       "engine.safari": "Safari blocks local audio \u2014 open this file with Chrome or Edge",
       "safari.title": "This browser cannot play audio here",
@@ -6996,6 +6998,73 @@ Destination: ${this.destinationName}`;
       this.muted.clear();
       this.loop = null;
       this._program();
+      this._prepared = false;
+      this._preparePromise = this.prepare((f) => this.onPrepareProgress?.(f));
+    }
+    /**
+     * Decode every sample the piece can reach, before anyone presses play.
+     *
+     * The bank is SF3 (Vorbis), and spessasynth decodes a sample lazily on its
+     * first use — inside the AudioWorklet. A first playback therefore triggers
+     * hundreds of Ogg decodes on the audio thread and misses render deadlines,
+     * which is heard as notes that start and are cut off. Replay is fine because
+     * everything is cached by then.
+     *
+     * There is no "preload" message in the worklet API, so the only way in is to
+     * create voices. We do that with every channel muted, one note at a time, and
+     * release immediately: the decode happens at voice creation regardless of
+     * volume, and the whole thing is inaudible.
+     *
+     * Velocities are picked to land in each velocity layer, since different
+     * layers reference different samples.
+     */
+    async prepare(onProgress) {
+      const synth = this.synth;
+      const piece = this.piece;
+      if (!synth || !piece) return;
+      const chans = [...new Set(piece.tracks.map((t2) => t2.channel))];
+      const range = /* @__PURE__ */ new Map();
+      for (const e of this.events) {
+        const r = range.get(e.ch);
+        if (!r) range.set(e.ch, [e.midi, e.midi]);
+        else {
+          if (e.midi < r[0]) r[0] = e.midi;
+          if (e.midi > r[1]) r[1] = e.midi;
+        }
+      }
+      const VELS = [24, 48, 72, 96, 112, 127];
+      let done = 0;
+      let total = 0;
+      for (const ch of chans) {
+        const r = range.get(ch);
+        if (r) total += (r[1] - r[0] + 5) * VELS.length;
+      }
+      for (const ch of chans) synth.controllerChange(ch, 7, 0);
+      for (const ch of chans) {
+        const r = range.get(ch);
+        if (!r) continue;
+        const lo = Math.max(0, r[0] - 2);
+        const hi = Math.min(127, r[1] + 2);
+        for (let key = lo; key <= hi; key++) {
+          for (const v of VELS) {
+            synth.noteOn(ch, key, v);
+            synth.noteOff(ch, key);
+            done++;
+          }
+          if (key % 8 === 7) {
+            onProgress?.(done / Math.max(1, total));
+            await new Promise((r2) => setTimeout(r2, 0));
+          }
+        }
+      }
+      synth.stopAll(true);
+      try {
+        await synth.getSnapshot();
+      } catch {
+      }
+      this.applyMix();
+      this._prepared = true;
+      onProgress?.(1);
     }
     _hasPreset(bank, program) {
       const list = this.synth?.presetList || [];
@@ -7110,6 +7179,14 @@ Destination: ${this.destinationName}`;
     play() {
       if (!this.ready || !this.events.length) return;
       this.resume();
+      if (!this._prepared && this._preparePromise) {
+        this._preparePromise.then(() => this._startPlayback());
+        return;
+      }
+      this._startPlayback();
+    }
+    _startPlayback() {
+      if (!this.ready || !this.events.length) return;
       const beat = this._anchorBeat;
       this._anchorCtx = this.ctx.currentTime + 0.06;
       this.cursor = this._indexAtBeat(beat);
@@ -7331,8 +7408,15 @@ Destination: ${this.destinationName}`;
     $("#workTitle").textContent = `${piece.composer} \xB7 ${piece.work}`;
     $("#movementTitle").textContent = piece.movement;
     renderMeta();
-    if (player?.ready) player.setPiece(piece);
-    else if (player) player.piece = piece;
+    if (player?.ready) {
+      player.onPrepareProgress = (f) => {
+        if (f >= 1) setEngine("ready", "engine.ready");
+        else setEngine("loading", "engine.prepare");
+      };
+      player.setPiece(piece);
+    } else if (player) {
+      player.piece = piece;
+    }
     player?.setEffects(state.fx);
     $("#loopBtn").setAttribute("aria-pressed", String(state.loopOn));
     $("#loopA").value = prefs?.loop?.a ?? 1;
