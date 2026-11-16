@@ -77,7 +77,7 @@ pnpm run dist           # → ConcertoMaestro-standalone.zip (~17 MB)
 ```
 Upload the zip to a release; the `releases/latest/download/` link always points at the newest one, so the README never needs editing.
 
-Four things the browser kills on `file://`, and the workarounds:
+### Four things `file://` kills
 
 | Killed | Workaround |
 |---|---|
@@ -88,7 +88,7 @@ Four things the browser kills on `file://`, and the workarounds:
 
 That last one bites hardest: the error reads `AbortError: ... a dependency or cross-origin script failed to load`, which looks like a CORS problem but is really file:// having a null origin.
 
-**Chrome / Edge only** for the offline build. Safari is stricter with `file://` and AudioWorklet usually refuses to start — run `pnpm start` locally instead.
+**Chrome / Edge only** for the offline build. Safari refuses to start an AudioWorklet from `file://` — the page says so and offers two ways out: open the file in Chrome, or serve the folder (`python3 -m http.server 8000`, then `localhost:8000`).
 
 ## Repertoire
 
@@ -99,6 +99,8 @@ That last one bites hardest: the error reads `AbortError: ... a dependency or cr
 **Liszt** 1 · **Brahms** 2 · **Ravel** G · **Schumann**
 
 Every movement is the full orchestral score minus the piano staves (identified by name and by the `{}` group in `%%score`).
+
+> **The first playback prepares the samples.** After picking a piece the engine label shows "Preparing…" for about a second. The bank is Vorbis-compressed, and each sample is otherwise decoded on first use *inside the audio thread* — which misses render deadlines and is heard as notes being cut off. See "Known issues" below.
 
 ## Soundbank
 
@@ -137,6 +139,8 @@ The third one is **deterministic** on purpose: offsets are derived from the sect
 
 Scheduling is [`spessasynth_lib`](https://github.com/spessasus/spessasynth_lib) (SF2/SF3 inside an AudioWorklet) used purely as a synthesiser. We keep our own timeline and hand it notes with explicit `AudioContext` timestamps 280 ms ahead.
 
+**Samples are decoded ahead of time.** The bank is SF3, and spessasynth decodes each sample lazily on first use — inside the audio thread. So after a piece is selected, every key and velocity layer it can reach is triggered with all channels muted, then `await synth.getSnapshot()` acts as a barrier (the worklet processes messages in order, so a returned snapshot means the decodes are done). Measured: 679 ms for the first piece in a session, 176 ms for the next, since samples are shared.
+
 ## The build pipeline
 
 `scripts/build.mjs`: **ABC → baked JSON**, so the browser only has to play. The source transcriptions are impressively messy:
@@ -152,6 +156,17 @@ Scheduling is [`spessasynth_lib`](https://github.com/spessasus/spessasynth_lib) 
 | `Vln. 2` / `Vc. 1` / `Roial'` / `Skripki` | a matcher that knows the abbreviations and the Cyrillic transliterations |
 | the body's opening `V:1` being eaten as a duplicate declaration | **silently dropped the entire first voice of every piece.** Fixed by rewinding one line |
 | `[Q:]` tempo marks | **not extracted.** They cluster in one voice and contradict each other; tempo is yours |
+| **Ties / slurs** | abcjs hangs the flags off the **pitch object**, not the element, and `startTie` is a bare `{}` rather than an array. Both checks failed silently: **no tie in the corpus was ever merged** (8,243 spurious re-attacks), and slurs (183 of each in one movement) were never read at all |
+| **Staccato / accent / fermata** | read from `decoration` and stored in the note's articulation bitfield. **Whether to shorten is a playback decision**, not baked in, so it can be re-decided at another tempo or with another bank |
+
+Each baked movement is one JSON:
+
+    totalBeats / totalMeasures / measureStarts[] / measureBeats[]
+    baseBpm / key / meter / sections[]
+    tracks[]: { group, label, channel, program, voices[],
+                notes: [[beat, dur, midi, velocity, art], …] }
+
+`art` is a bitfield: `1` staccato · `2` accent · `4` fermata · `8` slur start · `16` slur end. `dur` is always the **notated** length, never the sounding one — playback works that out.
 
 ## Known limitations (all real)
 
@@ -160,16 +175,18 @@ Scheduling is [`spessasynth_lib`](https://github.com/spessasus/spessasynth_lib) 
 - **Only timpani survives from the percussion.** Unpitched percussion dumped into a GM drum channel becomes noise.
 - **Strings are single-line.** ABC has one line per voice, so divisi is flattened; sections sound thinner than a real orchestra. A format ceiling, not a bug.
 - **Tempo zones are per-bar; no accelerando or ritardando.**
-- **Browsers have a memory ceiling.** `decodeAudioData` produces Float32 (352 KB per second of stereo), so large sample libraries do not fit.
+- **There is no performance layer yet.** Staccato is shortened, but slurs, accents, fermatas and "how long should this note actually sound at this tempo" are only *recorded* in the data. This is the biggest remaining piece of "fake".
+- **Browsers have a memory ceiling.** `decodeAudioData` produces Float32 (352 KB per second of stereo), so large sample libraries do not fit. A Kontakt-grade bank would have to be rendered offline, which cannot be re-tempo'd live.
 
 ## What I want to do next
 
 By value per unit of work:
 
-1. **Articulation** (short notes → staccato, repeats → tremolo). Every staccato in the score is currently stretched into a legato note — the last big piece of "fake".
-2. **Pedal / page-turner bindings** (PageUp, arrows) so you never leave the piano.
-3. **Piano entry markers** — turn the removed piano part into marks on the bar ruler that tell you where you come in.
-4. **Audio export**, for practising from a phone.
+1. **Pedal entry**. Binding a page-turner (PageUp / arrows) is ten minutes; the real feature is "step once and the orchestra starts two bars before my entrance".
+   It is blocked on a data question: **the first piano note is not the first entrance**. In K.466/I the piano staff has notes from bar 1, but that bar is marked Tutti; the first Solo is at bar 77 beat 2. We need to read Tutti / Solo positions out of the ABC first.
+2. **A performance layer**. Separate "what the score says" from "how this instrument plays it": keep the notated length and the staccato mark, and let the layer decide the sounding length. That is what makes changing bank or tempo possible later.
+3. **Audio export**, for practising from a phone.
+4. **Grow the repertoire from 29 to the several dozen that actually get played**. The pipeline works; the missing piece is proofreading each one.
 
 ## Licence
 
@@ -196,6 +213,7 @@ src/
   main.js   UI wiring, bar ruler
   player.js scheduler, mixer, sound treatment
   tempo.js  tempo map
+  assets.js asset loading (HTTP and file://)
   i18n.js   zh/en strings
 scripts/
   build.mjs            ABC → JSON
